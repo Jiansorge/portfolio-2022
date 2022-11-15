@@ -12,8 +12,8 @@ const App = () => (
         <Header />
         <Router>
             <Route path="/" component={Home} />
-            <Route path="/project/" component={Project} user="me" />
-            <Route path="/project/:user" component={Project} />
+            <Route path="/project/" component={Project} name="me" />
+            <Route path="/project/:name" component={Project} />
         </Router>
     </div>
 );

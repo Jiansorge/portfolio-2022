@@ -3,11 +3,11 @@ import { useEffect, useState } from 'preact/hooks';
 import style from './style.css';
 
 interface Props {
-    user: string;
+    name: string;
 }
 
-// Note: `user` comes from the URL, courtesy of our router
-const Project = ({ user }: Props) => {
+// Note: `name` comes from the URL, courtesy of our router
+const Project = ({ name }: Props) => {
     const [time, setTime] = useState<number>(Date.now());
     const [count, setCount] = useState<number>(0);
 
@@ -18,8 +18,8 @@ const Project = ({ user }: Props) => {
 
     return (
 		<div class={style.project}>
-			<h1>Project: {user}</h1>
-			<p>This is the  project named { user }.</p>
+			<h1>Project: {name}</h1>
+			<p>This is the  project named { name }.</p>
 
 			<div>Current time: {new Date(time).toLocaleString()}</div>
 
