@@ -1,4 +1,4 @@
-# my-project
+# portfolio-2022
 
 ## CLI Commands
 *   `npm install`: Installs dependencies
