@@ -7,7 +7,7 @@ interface Props {
 }
 
 // Note: `user` comes from the URL, courtesy of our router
-const Profile = ({ user }: Props) => {
+const Project = ({ user }: Props) => {
     const [time, setTime] = useState<number>(Date.now());
     const [count, setCount] = useState<number>(0);
 
@@ -17,9 +17,9 @@ const Profile = ({ user }: Props) => {
 	}, []);
 
     return (
-		<div class={style.profile}>
-			<h1>Profile: {user}</h1>
-			<p>This is the user profile for a user named { user }.</p>
+		<div class={style.project}>
+			<h1>Project: {user}</h1>
+			<p>This is the  project named { user }.</p>
 
 			<div>Current time: {new Date(time).toLocaleString()}</div>
 
@@ -32,4 +32,4 @@ const Profile = ({ user }: Props) => {
 	);
 };
 
-export default Profile;
+export default Project;
