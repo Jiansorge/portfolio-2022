@@ -3,8 +3,10 @@ import style from './style.css';
 
 const Home = () => (
 	<div class={style.home}>
-		<h1>Home</h1>
-		<p>This is the Home component.</p>
+		<h1>Hello!</h1>
+		<p>My name is Jian.</p>
+		<p>Check out some of my projects.</p>
+
 	</div>
 );
 
