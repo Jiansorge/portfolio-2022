@@ -9,7 +9,10 @@ const Home = () => (
 
 		<section>
 			<h2>Jian's Project Highlights</h2>
-			
+
+		</section>
+		<section>
+			<h2>About Jian</h2>
 		</section>
 	</div>
 );
