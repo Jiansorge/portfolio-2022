@@ -28,6 +28,10 @@ const Project = ({ name }: Props) => {
 				{' '}
 				Clicked {count} times.
 			</p>
+
+			<section>
+				Takeaways for Project {name}
+			</section>
 		</div>
 	);
 };

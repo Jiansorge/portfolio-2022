@@ -7,6 +7,10 @@ const Home = () => (
 		<p>My name is Jian.</p>
 		<p>Check out some of my projects.</p>
 
+		<section>
+			<h2>Jian's Project Highlights</h2>
+			
+		</section>
 	</div>
 );
 
