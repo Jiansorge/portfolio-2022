@@ -29,9 +29,7 @@ const Project = ({ name }: Props) => {
 				Clicked {count} times.
 			</p>
 
-			<section>
-				Takeaways for Project {name}
-			</section>
+			<h2>Key Takeaways</h2>
 		</div>
 	);
 };

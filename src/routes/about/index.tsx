@@ -24,9 +24,7 @@ const About = () => {
 				Clicked {count} times.
 			</p>
 
-			<section>
-				Other facts about me
-			</section>
+			<h2>Other Facts</h2>
 		</div>
 	);
 };
