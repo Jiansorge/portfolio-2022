@@ -12,7 +12,7 @@ const Project = ({ name }: Props) => {
     const [count, setCount] = useState<number>(0);
 
     useEffect(() => {
-		let timer = setInterval(() => setTime(Date.now()), 1000);
+		const timer = setInterval(() => setTime(Date.now()), 1000);
 		return () => clearInterval(timer);
 	}, []);
 
