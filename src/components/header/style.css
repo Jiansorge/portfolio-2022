@@ -29,6 +29,7 @@
 .header nav {
 	float: right;
 	font-size: 100%;
+	display: flex;
 }
 
 .header nav a {
