@@ -4,11 +4,15 @@ import style from './style.css';
 
 const Header = () => (
 	<header class={style.header}>
-		<h1>Jian Sorge's Portfolio</h1>
+		<div>
+			<img src="./assets/icons/android-chrome-512x512.png" alt="" />
+			<h1>Jian Sorge's Portfolio</h1>
+		</div>
+
 		<nav>
 			<Link activeClassName={style.active} href="/">Home</Link>
-			<Link activeClassName={style.active} href="/project">Me</Link>
-			<Link activeClassName={style.active} href="/project/john">John</Link>
+			<Link activeClassName={style.active} href="/projects">Projects</Link>
+			<Link activeClassName={style.active} href="/about">About</Link>
 		</nav>
 	</header>
 );
