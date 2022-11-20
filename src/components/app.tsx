@@ -5,7 +5,9 @@ import Header from './header';
 
 // Code-splitting is automated for `routes` directory
 import Home from '../routes/home';
-import Project from '../routes/projects';
+import Projects from '../routes/projects/projects';
+import Project from '../routes/projects/project';
+
 import About from '../routes/about';
 
 
@@ -14,7 +16,7 @@ const App = () => (
         <Header />
         <Router>
             <Route path="/" component={Home} />
-            <Route path="/projects/" component={Project} name="All Projects" />
+            <Route path="/projects/" component={Projects} name="All Projects" />
             <Route path="/projects/:name" component={Project} />
             <Route path="/about/" component={About} />
 
