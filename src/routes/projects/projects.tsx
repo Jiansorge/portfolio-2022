@@ -1,4 +1,5 @@
 import { h } from 'preact';
+import Footer from '../../components/footer';
 import style from './style.css';
 
 
@@ -14,7 +15,7 @@ const Projects = () => {
 				<li>This project was a challenge.</li>
 
 			</ul>
-
+            <Footer />
 		</div>
 	);
 };

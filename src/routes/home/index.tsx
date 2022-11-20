@@ -1,4 +1,5 @@
 import { h } from 'preact';
+import Footer from '../../components/footer';
 import style from './style.css';
 
 const Home = () => (
@@ -14,6 +15,7 @@ const Home = () => (
 		<section>
 			<h2>About Jian</h2>
 		</section>
+		<Footer />
 	</div>
 );
 

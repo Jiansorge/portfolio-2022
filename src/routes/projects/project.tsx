@@ -1,5 +1,6 @@
 import { h } from 'preact';
 import { useEffect, useState } from 'preact/hooks';
+import Footer from '../../components/footer';
 import style from './style.css'
 
 interface Props {
@@ -30,6 +31,7 @@ const Project = ({ name }: Props) => {
 			</p>
 
 			<h2>Key Takeaways</h2>
+            <Footer />
 		</div>
 	);
 };

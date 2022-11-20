@@ -1,5 +1,6 @@
 import { h } from 'preact';
 import { useEffect, useState } from 'preact/hooks';
+import Footer from '../../components/footer';
 import style from './style.css';
 
 const About = () => {
@@ -25,6 +26,7 @@ const About = () => {
 			</p>
 
 			<h2>Other Facts</h2>
+			<Footer />
 		</div>
 	);
 };

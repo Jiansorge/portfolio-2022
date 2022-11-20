@@ -7,7 +7,6 @@ import Header from './header';
 import Home from '../routes/home';
 import Projects from '../routes/projects/projects';
 import Project from '../routes/projects/project';
-
 import About from '../routes/about';
 
 
@@ -16,10 +15,9 @@ const App = () => (
         <Header />
         <Router>
             <Route path="/" component={Home} />
-            <Route path="/projects/" component={Projects} name="All Projects" />
+            <Route path="/projects/" component={Projects} />
             <Route path="/projects/:name" component={Project} />
             <Route path="/about/" component={About} />
-
         </Router>
     </div>
 );
