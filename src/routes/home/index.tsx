@@ -4,9 +4,15 @@ import Footer from '../../components/footer';
 
 const Home = () => (
 	<div>
-		<h1>Hello!</h1>
-		<p>My name is Jian.</p>
-		<p>Check out some of my projects.</p>
+		<div className="hero min-h-screen bg-base-200">
+			<div className="hero-content text-center">
+				<div className="max-w-md">
+				<h1 className="text-5xl font-bold">Hello!</h1>
+				<p className="py-6">My name is Jian.</p>
+				<button className="btn btn-primary">Check out my portfolio!</button>
+				</div>
+			</div>
+		</div>
 
 		<section>
 		<div className="carousel w-full">
