@@ -2,12 +2,13 @@ import { h } from 'preact';
 import { Route, Router } from 'preact-router';
 
 import Header from './header';
-
+import Footer from './footer';
 // Code-splitting is automated for `routes` directory
 import Home from '../routes/home';
 import Projects from '../routes/projects/projects';
 import Project from '../routes/projects/project';
 import About from '../routes/about';
+
 
 
 const App = () => (
@@ -19,6 +20,7 @@ const App = () => (
             <Route path="/projects/:name" component={Project} />
             <Route path="/about/" component={About} />
         </Router>
+        <Footer />
     </div>
 );
 
