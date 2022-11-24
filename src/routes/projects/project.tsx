@@ -94,7 +94,6 @@ const Project = ({ name }: Props) => {
                     </a>
                 </div>
             </div>
-            <Footer />
 		</div>
 	);
 };

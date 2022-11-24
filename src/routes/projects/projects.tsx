@@ -251,7 +251,6 @@ const Projects = () => {
                     </a>
                 </div>
             </div>
-            <Footer />
 		</div>
 	);
 };
