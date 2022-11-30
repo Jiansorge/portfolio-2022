@@ -28,12 +28,17 @@ const About = () => {
 					</div>
 					<div class="max-w-xl mb-6">
 						<h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-						Let us handle<br class="hidden md:block" />
-						your next
-						<span class="inline-block text-deep-purple-accent-400">destination</span>
+							About Jian
 						</h2>
 						<p class="text-base text-gray-700 md:text-lg">
-						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
+							After spending 7 years in the aerospace industry as 
+							a project engineer, I decided to change care careers. 
+							I received two certificates in web development, and now
+							I program full-time!
+						</p>
+						<p class="text-base text-gray-700 md:text-lg pt-5">
+							I've worked professionally as a front-end web developer 
+							for 2 years and extensively with JavaScript, HTML, CSS and React.
 						</p>
 					</div>
 					<div>
