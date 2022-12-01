@@ -6,7 +6,7 @@ const Header = () => (
 	<header class={style.header}>
 		<div>
 			<img src="./assets/icons/android-chrome-512x512.png" alt="" />
-			<h1>Jian Sorge's Portfolio</h1>
+			<h1 class="">Jian Sorge's Portfolio</h1>
 		</div>
 
 		<nav>
