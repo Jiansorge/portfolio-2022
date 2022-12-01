@@ -46,33 +46,32 @@ const Item = ({ title, children }: Props) => {
   };
   export const Faq = () => {
     return (
-      <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 ">
+      <div class="px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 ">
         <div class="max-w-xl sm:mx-auto lg:max-w-2xl">
           <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
             <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
               FAQ
             </h2>
             <p class="text-base text-gray-700 md:text-lg ">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae.
+              What would you like to know about me?
             </p>
           </div>
           <div class="space-y-4">
-            <Item title="The quick, brown fox jumps over a lazy dog?">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae.
+            <Item title="Why do you enjoy front-end web dev?">
+              I have fun creating user experiences that flow and are visually captivating. 
+              It's important for me to design things with responsiveness
+              and accessibility in mind, to ensure all users have access.
+             </Item>
+            <Item title="What technologies do you prefer to work with?">
+              For static sites, I like to use Eleventy or Preact deployed with Surge.
+              For full-stack projects, I prefer to use the <a href="https://github.com/topics/t3-stack">T3 stack</a> with React.
             </Item>
-            <Item title="The first mate and his Skipper too will do?">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae.
+            <Item title="Why did you switch careers?">
+              I wanted a job role focused on solving technical challenges and creating things that make people happy.
+              I am happy I switched!
             </Item>
-            <Item title="Is the Space Pope reptilian!?">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae.
-            </Item>
-            <Item title="How much money you got on you?">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae.
+            <Item title="What else are you working on?">
+              I am learning game development with Unity. I also am slowly learning Rust.
             </Item>
           </div>
         </div>
