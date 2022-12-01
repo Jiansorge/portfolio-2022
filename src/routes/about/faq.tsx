@@ -68,10 +68,10 @@ const Item = ({ title, children }: Props) => {
             </Item>
             <Item title="Why did you switch careers?">
               I wanted a job role focused on solving technical challenges and creating things that make people happy.
-              I am happy I switched!
+              I'm happy I switched!
             </Item>
             <Item title="What else are you working on?">
-              I am learning game development with Unity. I also am slowly learning Rust.
+              I am learning game development with Unity. I also am slowly learning Rust + WASM.
             </Item>
           </div>
         </div>

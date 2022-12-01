@@ -38,7 +38,7 @@ const About = () => {
 						</p>
 						<p class="text-base text-gray-700 md:text-lg pt-5">
 							I've worked professionally as a front-end web developer 
-							for 2 years and extensively with JavaScript, HTML, CSS and React.
+							for 2 years and have extensive experience with JavaScript, HTML, CSS and React.
 						</p>
 					</div>
 					<div>
