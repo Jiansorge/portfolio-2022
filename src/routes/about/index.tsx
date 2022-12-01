@@ -31,14 +31,14 @@ const About = () => {
 							About Jian
 						</h2>
 						<p class="text-base text-gray-700 md:text-lg">
+							I've worked as a front-end web developer 
+							for 2 years full-time professionally. I have extensive experience with JavaScript, HTML, CSS and React.
+						</p>
+						<p class="text-base text-gray-700 md:text-lg pt-5">
 							After spending 7 years in the aerospace industry as 
 							a project engineer, I decided to change care careers. 
 							I received two certificates in web development, and now
-							I program full-time!
-						</p>
-						<p class="text-base text-gray-700 md:text-lg pt-5">
-							I've worked professionally as a front-end web developer 
-							for 2 years and have extensive experience with JavaScript, HTML, CSS and React.
+							I program full-time.
 						</p>
 					</div>
 					{/* <div>
