@@ -37,8 +37,7 @@ const About = () => {
 						<p class="text-base text-gray-700 md:text-lg pt-5">
 							After spending 7 years in the aerospace industry as 
 							a project engineer, I decided to change care careers. 
-							I received two certificates in web development, and now
-							I program full-time.
+							I received two certificates in web development and made the jump!
 						</p>
 					</div>
 					{/* <div>
