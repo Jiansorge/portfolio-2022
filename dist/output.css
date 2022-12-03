@@ -2647,12 +2647,12 @@ html {
   padding-top: 0px;
 }
 
-.pt-5 {
-  padding-top: 1.25rem;
-}
-
 .pb-16 {
   padding-bottom: 4rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .text-center {

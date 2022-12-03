@@ -57,21 +57,21 @@ const Item = ({ title, children }: Props) => {
             </p>
           </div>
           <div class="space-y-4">
-            <Item title="Why do you enjoy front-end web dev?">
+            <Item title="Why do you enjoy front-end web development?">
               I have fun creating user experiences that flow and are visually captivating. 
               It's important for me to design things with responsiveness
               and accessibility in mind, to ensure all users have access.
              </Item>
             <Item title="What technologies do you prefer to work with?">
-              For static sites, I like to use Eleventy or Preact deployed with Surge.
-              For full-stack projects, I prefer to use the <a href="https://github.com/topics/t3-stack">T3 stack</a> with React.
+              For static sites, I like to use <a href="https://www.11ty.dev/">Eleventy</a> or <a href="https://github.com/preactjs-templates/typescript">Preact</a> deployed with Surge.
+              For full-stack projects, I prefer to use the <a href="https://github.com/topics/t3-stack">T3 stack</a> with React + TypeScript.
             </Item>
             <Item title="Why did you switch careers?">
               I wanted a job role focused on solving technical challenges and creating things that make people happy.
               I'm happy I switched!
             </Item>
             <Item title="What else are you working on?">
-              I am learning game development with Unity. I also am slowly learning Rust + WASM.
+              I am learning game development with <a href="https://unity.com/">Unity</a>. I am also interested in learning <a href="https://www.rust-lang.org/what/wasm">Rust + WASM</a>.
             </Item>
           </div>
         </div>
