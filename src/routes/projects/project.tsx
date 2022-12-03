@@ -1,6 +1,5 @@
 import { h } from 'preact';
 import { useEffect, useState } from 'preact/hooks';
-import Footer from '../../components/footer';
 import style from './style.css'
 
 interface Props {

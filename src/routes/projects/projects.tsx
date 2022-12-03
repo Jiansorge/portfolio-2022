@@ -1,5 +1,4 @@
 import { h } from 'preact';
-import Footer from '../../components/footer';
 import style from './style.css';
 
 

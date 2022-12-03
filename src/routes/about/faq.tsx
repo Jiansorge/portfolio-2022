@@ -1,12 +1,6 @@
 import { h } from 'preact';
 import { useState } from 'preact/hooks';
 
-interface Props {
-    title: string;
-    // TODO remove?
-    children: string;
-}
-
 const Item = ({ title, children }: Props) => {
     const [isOpen, setIsOpen] = useState(false);
     return (
