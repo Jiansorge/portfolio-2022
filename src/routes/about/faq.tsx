@@ -63,15 +63,15 @@ const Item = ({ title, children }: Props) => {
               and accessibility in mind, to ensure all users have access.
              </Item>
             <Item title="What technologies do you prefer to work with?">
-              For static sites, I like to use <a href="https://www.11ty.dev/">Eleventy</a> or <a href="https://github.com/preactjs-templates/typescript">Preact</a> deployed with Surge.
-              For full-stack projects, I prefer to use the <a href="https://github.com/topics/t3-stack">T3 stack</a> with React + TypeScript.
+              For static sites, I like to use <a href="https://www.11ty.dev/" target="_blank" rel="noopener">Eleventy</a> or <a href="https://github.com/preactjs-templates/typescript">Preact</a> deployed with Surge.
+              For full-stack projects, I prefer to use the <a href="https://github.com/topics/t3-stack" target="_blank" rel="noopener">T3 stack</a> with React + TypeScript.
             </Item>
             <Item title="Why did you switch careers?">
               I wanted a job role focused on solving technical challenges and creating things that make people happy.
               I'm happy I switched!
             </Item>
             <Item title="What else are you working on?">
-              I am learning game development with <a href="https://unity.com/">Unity</a>. I am also interested in learning <a href="https://www.rust-lang.org/what/wasm">Rust + WASM</a>.
+              I am learning game development with <a href="https://unity.com/" target="_blank" rel="noopener">Unity</a>. I am also interested in learning <a href="https://www.rust-lang.org/what/wasm" target="_blank" rel="noopener">Rust + WASM</a>.
             </Item>
           </div>
         </div>
