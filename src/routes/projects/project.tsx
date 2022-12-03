@@ -22,18 +22,17 @@ const Project = ({ name }: Props) => {
             <div class="w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:py-20 lg:max-w-screen-xl">
                 <div class="mb-0 lg:max-w-lg lg:pr-8 xl:pr-6">
                 <h2 class="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:text-center">
-                    The quick, brown fox<br class="hidden md:block" />
-                    jumps over a lazy dog
+                    {name}
                 </h2>
                 <p class="mb-5 text-base text-gray-700 md:text-lg md:text-center">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
+                    This needs a way to handle project routes.
                 </p>
                 <div class="mb-10 text-center md:mb-16 lg:mb-20">
                     <a
                     href="/"
                     class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                     >
-                    Learn more
+                    Git Repo
                     </a>
                 </div>
 
@@ -48,7 +47,7 @@ const Project = ({ name }: Props) => {
             </div>
             </div>
 
-            <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+            <div class="px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
 
                 <div class="grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2">
                     <div class="duration-300 transform bg-white border-l-4 border-deep-purple-accent-400 hover:-translate-y-2">

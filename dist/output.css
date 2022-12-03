@@ -3074,6 +3074,10 @@ html {
     padding-right: 0px;
   }
 
+  .lg\:pb-20 {
+    padding-bottom: 5rem;
+  }
+
   .lg\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
