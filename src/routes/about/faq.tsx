@@ -77,7 +77,7 @@ const Item = ({ title, children }: Props) => {
             </Item>
             <Item title="What else are you working on?">
               <>
-                I am learning game development with <a href="https://unity.com/" target="_blank" rel="noopener">Unity</a>. I am also interested in learning <a href="https://www.rust-lang.org/what/wasm" target="_blank" rel="noopener">Rust + WASM</a>.
+                I am learning game development with <a href="https://unity.com/" target="_blank" rel="noopener">Unity</a>. I am also interested in learning <a href="https://www.rust-lang.org/what/wasm" target="_blank" rel="noopener">Rust + WASM</a>, just because it's blazingly fast.
               </>
             </Item>
           </div>
