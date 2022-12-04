@@ -25,7 +25,7 @@ const About = () => {
 						<rect x="9" y="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" width="6" height="4" stroke-linejoin="round"></rect>
 						</svg>
 					</div> */}
-					<div class="max-w-xl mb-6">
+					<div class="max-w-xl mb-12">
 						<h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
 							About Jian
 						</h2>
