@@ -27,6 +27,14 @@ const Project = ({ name }: Props) => {
                 <p class="mb-5 text-base text-gray-700 md:text-lg md:text-center">
                     This needs a way to handle project routes.
                 </p>
+                <div class="text-center">
+                    <a
+                    href="/"
+                    class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                    >
+                        See the hosted project
+                    </a>
+                </div>
                 <div class="mb-10 text-center md:mb-16 lg:mb-20">
                     <a
                     href="/"
@@ -35,6 +43,7 @@ const Project = ({ name }: Props) => {
                     Git Repo
                     </a>
                 </div>
+
 
                 </div>
             </div>
@@ -82,14 +91,6 @@ const Project = ({ name }: Props) => {
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="text-center">
-                    <a
-                    href="/"
-                    class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                    >
-                        Learn more
-                    </a>
                 </div>
             </div>
 		</div>
