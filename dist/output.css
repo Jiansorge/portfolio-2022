@@ -2322,6 +2322,10 @@ html {
   margin-bottom: 1rem;
 }
 
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -2368,10 +2372,6 @@ html {
 
 .grid {
   display: grid;
-}
-
-.hidden {
-  display: none;
 }
 
 .h-16 {
@@ -2925,10 +2925,6 @@ html {
     margin-bottom: 1.5rem;
   }
 
-  .md\:block {
-    display: block;
-  }
-
   .md\:h-96 {
     height: 24rem;
   }
@@ -3072,10 +3068,6 @@ html {
 
   .lg\:pr-0 {
     padding-right: 0px;
-  }
-
-  .lg\:pb-20 {
-    padding-bottom: 5rem;
   }
 
   .lg\:text-sm {
