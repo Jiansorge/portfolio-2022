@@ -7,9 +7,9 @@ interface Props {
     href: string;
     imgSrc: string;
     imgAlt: string;
-  }
-  
-  const ProjectTile = ({ title, description, href, imgSrc, imgAlt }: Props) => {
+}
+
+const ProjectTile = ({ title, description, href, imgSrc, imgAlt }: Props) => {
 	return (
         <a href={href} aria-label="View Item">
             <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">

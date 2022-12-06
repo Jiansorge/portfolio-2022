@@ -25,8 +25,6 @@ Icon from https://www.reshot.com/
 
 - [ ] Create color theme config
 - [ ] Refactor SVGs
-- [ ] Refactor project tile component
-- [ ] Refactor mini project tile component
 - [ ] Create data
 - [ ] Logo
 - [ ] SEO
