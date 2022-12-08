@@ -65,8 +65,8 @@ const Item = ({ title, children }: Props) => {
              </Item>
             <Item title="What technologies do you prefer to work with?">
               <>
-                For static sites, I like to use <a href="https://www.11ty.dev/" target="_blank" rel="noopener">Eleventy</a> or <a href="https://github.com/preactjs-templates/typescript">Preact</a> deployed with <a href="https://surge.sh/">Surge</a>.
-                For full-stack projects, I like to use the <a href="https://github.com/topics/t3-stack" target="_blank" rel="noopener">T3 stack</a> with React + TypeScript.
+                For static sites, I like to use <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer">Eleventy</a> or <a href="https://github.com/preactjs-templates/typescript">Preact</a> deployed with <a href="https://surge.sh/">Surge</a>.
+                For full-stack projects, I like to use the <a href="https://github.com/topics/t3-stack" target="_blank" rel="noopener noreferrer">T3 stack</a> with React + TypeScript.
               </>
             </Item>
             <Item title="Why did you switch careers?">
@@ -77,7 +77,7 @@ const Item = ({ title, children }: Props) => {
             </Item>
             <Item title="What else are you working on?">
               <>
-                I am learning game development with <a href="https://unity.com/" target="_blank" rel="noopener">Unity</a>. I am also interested in learning <a href="https://www.rust-lang.org/what/wasm" target="_blank" rel="noopener">Rust + WASM</a>, just because it's blazingly fast.
+                I am slowly learning Vue and Nuxt.js. I am also interested in learning game development with <a href="https://unity.com/" target="_blank" rel="noopener noreferrer">Unity</a>.
               </>
             </Item>
           </div>
