@@ -24,7 +24,6 @@ Icon from https://www.reshot.com/
 ## TODO
 
 - [ ] Create color theme config
-- [ ] Refactor SVGs
 - [ ] Create data
 - [ ] Logo
 - [ ] SEO
