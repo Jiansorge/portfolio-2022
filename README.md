@@ -28,4 +28,6 @@ Icon from https://www.reshot.com/
 - [ ] Logo
 - [ ] SEO
 - [ ] CMS
+- [ ] Host site and rehost previous portfolio
+- [ ] Update readme
 - [ ] Front-end checklist
