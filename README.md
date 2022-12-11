@@ -27,6 +27,7 @@ Icon from https://www.reshot.com/
 - [ ] Create data
 - [ ] Logo
 - [ ] SEO
+- [ ] Add images, about, project, homepage
 - [ ] CMS
 - [ ] Host site and rehost previous portfolio
 - [ ] Update readme
