@@ -1,10 +1,64 @@
 [    
     {
-        "urlString" : {
-            "name": "",
+        "portfolio-2022" : {
+            "name": "Portfolio 2022",
             "description": "",
             "liveUrl": "",
+            "gitUrl": "https://github.com/Jiansorge/portfolio-2022",
+            "imgUrl": "",
+            "imgAlt": "",
+            "subHeader1": "",
+            "subDescription1": "",
+            "subHeader2": "",
+            "subDescription2": "",
+            "subHeader3": "",
+            "subDescription3": "",
+            "subHeader4": "",
+            "subDescription4": ""
+        }
+    },
+    {
+        "advertise-with-us" : {
+            "name": "Advertise With Us",
+            "description": "",
+            "liveUrl": "https://www.advertise-with-us.com/",
             "gitUrl": "",
+            "imgUrl": "",
+            "imgAlt": "",
+            "subHeader1": "",
+            "subDescription1": "",
+            "subHeader2": "",
+            "subDescription2": "",
+            "subHeader3": "",
+            "subDescription3": "",
+            "subHeader4": "",
+            "subDescription4": ""
+        }
+    },
+    {
+        "archived-portfolio" : {
+            "name": "Archived Portfolio",
+            "description": "",
+            "liveUrl": "",
+            "gitUrl": "https://bitbucket.org/jiansorge/personal-website-1/src/master/",
+            "imgUrl": "",
+            "imgAlt": "",
+            "subHeader1": "",
+            "subDescription1": "",
+            "subHeader2": "",
+            "subDescription2": "",
+            "subHeader3": "",
+            "subDescription3": "",
+            "subHeader4": "",
+            "subDescription4": ""
+        }
+    },
+    {
+        "sonar-strike" : {
+            "name": "Sonar Strike",
+            "description": "",
+            "liveUrl": "sonar-strike.jiansorge.now.sh/",
+            "gitUrl": "https://github.com/Jiansorge/JSCRIPT-300-Final-Project",
             "imgUrl": "",
             "imgAlt": "",
             "subHeader1": "",
