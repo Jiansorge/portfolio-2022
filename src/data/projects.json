@@ -38,19 +38,15 @@
     {
         "archived-portfolio" : {
             "name": "Archived Portfolio",
-            "description": "Prototype Underwater Shooter. High-speed  space shooter game made in entirely in React and JavaScript. Final project for JSCRIPT-300, React front-end development course. 
-                        
-            Play it at https://sonar-strike.jiansorge.now.sh/
-            
-            Game mechanics cloned from https://github.com/mauryaavinash95/sky-shooter.",
+            "description": "An old portfolio built from a Gatsby and Contentful template.",
             "liveUrl": "",
             "gitUrl": "https://bitbucket.org/jiansorge/personal-website-1/src/master/",
             "imgUrl": "",
             "imgAlt": "",
-            "subHeader1": "",
+            "subHeader1": "Gatsby PWA",
             "subDescription1": "",
             "subHeader2": "",
-            "subDescription2": "",
+            "subDescription2": "Contentful CMS",
             "subHeader3": "",
             "subDescription3": "",
             "subHeader4": "",
@@ -60,19 +56,23 @@
     {
         "sonar-strike" : {
             "name": "Sonar Strike",
-            "description": "",
+            "description": "Prototype Underwater Shooter. High-speed  space shooter game made in entirely in React and JavaScript. Final project for JSCRIPT-300, React front-end development course. 
+                        
+            Play it at https://sonar-strike.jiansorge.now.sh/
+            
+            Game mechanics cloned from https://github.com/mauryaavinash95/sky-shooter.",
             "liveUrl": "sonar-strike.jiansorge.now.sh/",
             "gitUrl": "https://github.com/Jiansorge/JSCRIPT-300-Final-Project",
-            "imgUrl": "",
-            "imgAlt": "",
-            "subHeader1": "",
-            "subDescription1": "",
-            "subHeader2": "",
-            "subDescription2": "",
-            "subHeader3": "",
-            "subDescription3": "",
-            "subHeader4": "",
-            "subDescription4": ""
+            "imgUrl": "data:image/png;base64,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",
+            "imgAlt": "Starting page of gameplay with sonar blasting dolping on a tropical island background",
+            "subHeader1": "Cloned Game Mechanics",
+            "subDescription1": "This was cloned from another game. I updated the game mechanics, styling, and menu navigation to create an entirely new look and feel.",
+            "subHeader2": "Entirely React and JavaScript",
+            "subDescription2": "All game logic is written in JS.",
+            "subHeader3": "Prototype Project",
+            "subDescription3": "Gameplay only features one static level and type of enemy. It is not playable on certain devices.",
+            "subHeader4": "What's your high score?",
+            "subDescription4": "If you can keep clicking fast enough, it's pretty hard to lose!"
         }
     }
 ]
