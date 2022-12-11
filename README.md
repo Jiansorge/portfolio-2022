@@ -28,3 +28,4 @@ Icon from https://www.reshot.com/
 - [ ] Logo
 - [ ] SEO
 - [ ] CMS
+- [ ] Front-end checklist
