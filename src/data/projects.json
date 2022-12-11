@@ -2,25 +2,25 @@
     {
         "portfolio-2022" : {
             "name": "Portfolio 2022",
-            "description": "",
-            "liveUrl": "",
+            "description": "This website was made using a Preact +  TypeScript starter template. It utilizes Tailwind CSS and Daisy UI for styled components.",
+            "liveUrl": "https://www.jiansorge.com/",
             "gitUrl": "https://github.com/Jiansorge/portfolio-2022",
             "imgUrl": "",
             "imgAlt": "",
-            "subHeader1": "",
-            "subDescription1": "",
-            "subHeader2": "",
-            "subDescription2": "",
-            "subHeader3": "",
-            "subDescription3": "",
-            "subHeader4": "",
-            "subDescription4": ""
+            "subHeader1": "Preact + Typescript",
+            "subDescription1": "I used Preact as a lightweight alternative to React ( 3.5kb vs. 135kb in size). Plus, it makes it easy to enable pre-rendering for SEO.",
+            "subHeader2": "TailwindCSS + DaisyUI",
+            "subDescription2": "I used this framework for ease of used. DaisyUI's and Kitwind.io's libraries made it easy to generate great looking and responsive components.",
+            "subHeader3": "JSON Data Model",
+            "subDescription3": "All projects data is stored in a single JSON of key/values.",
+            "subHeader4": "Lighthouse Scores Over XX",
+            "subDescription4": "Google Lighthouse measured the following scores across the app: XX Performance, XX Accessibility, XX Best Practices, XX SEO, XX Progressive Web App"
         }
     },
     {
         "advertise-with-us" : {
             "name": "Advertise With Us",
-            "description": "",
+            "description": "A vanilla html website",
             "liveUrl": "https://www.advertise-with-us.com/",
             "gitUrl": "",
             "imgUrl": "",
@@ -38,7 +38,11 @@
     {
         "archived-portfolio" : {
             "name": "Archived Portfolio",
-            "description": "",
+            "description": "Prototype Underwater Shooter. High-speed  space shooter game made in entirely in React and JavaScript. Final project for JSCRIPT-300, React front-end development course. 
+                        
+            Play it at https://sonar-strike.jiansorge.now.sh/
+            
+            Game mechanics cloned from https://github.com/mauryaavinash95/sky-shooter.",
             "liveUrl": "",
             "gitUrl": "https://bitbucket.org/jiansorge/personal-website-1/src/master/",
             "imgUrl": "",
