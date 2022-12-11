@@ -1,13 +1,14 @@
 import { h } from 'preact';
-import MiniTile from './miniTile';
+// import MiniTile from './miniTile';
 import ProjectTile from './projectTile';
 import style from './style.css';
 
 // List of Projects
 // Portfolio 2022
 // Advertise With Us
-// Sonar Strike
 // Portfolio 2020
+// Sonar Strike
+
 
 
 const Projects = () => {
