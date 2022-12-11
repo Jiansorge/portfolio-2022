@@ -44,13 +44,13 @@
             "imgUrl": "",
             "imgAlt": "",
             "subHeader1": "Gatsby PWA",
-            "subDescription1": "",
-            "subHeader2": "",
-            "subDescription2": "Contentful CMS",
-            "subHeader3": "",
-            "subDescription3": "",
-            "subHeader4": "",
-            "subDescription4": ""
+            "subDescription1": "I chose to try out Gatsby for its built-in templates, content management system configuration and plugin ecosystem.",
+            "subHeader2": "Responsive and SEO Approved",
+            "subDescription2": "Mobile friendly. Also has perfect Lighthouse scores in accessbility and SEO categories.",
+            "subHeader3": "Contentful CMS",
+            "subDescription3": "Provided discoverable and reusable content, which was easy to manage.",
+            "subHeader4": "GraphQL",
+            "subDescription4": "I got exposure to using GraphQL with a CMS to fetch rendered data."
         }
     },
     {
