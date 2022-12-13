@@ -1,26 +1,24 @@
 import { h } from 'preact';
+import {Project} from './projects'
 
 interface Props {
-    title: string;
-    description: string;
-    href: string;
-    imgSrc: string;
-    imgAlt: string;
+    project: Project
+    href:string
 }
 
-const MiniTile = ({ title, description, href, imgSrc, imgAlt }: Props) => {
+const MiniTile = ({ project, href }: Props) => {
 	return (
         <a href={href} aria-label="View Item">
             <img
                 className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
-                src={imgSrc}
-                alt={imgAlt}
+                src={project.imgUrl}
+                alt={project.imgAlt}
             />
             <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">
-                {title}
+                {project.name}
             </p>
             <p className="text-gray-700">
-                {description}
+                {project.description}
             </p>
         </a>
     );
