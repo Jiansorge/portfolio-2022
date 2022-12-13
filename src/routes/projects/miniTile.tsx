@@ -1,5 +1,5 @@
 import { h } from 'preact';
-import {Project} from './projects'
+import { Project } from './projects'
 
 interface Props {
     project: Project
