@@ -1,8 +1,8 @@
 import { h } from 'preact';
-import { Project } from './projects'
+import { ProjectType } from './projects'
 
 interface Props {
-    project: Project
+    project: ProjectType
     href: string
 }
 

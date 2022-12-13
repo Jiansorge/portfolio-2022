@@ -3,8 +3,6 @@ import MiniTile from './miniTile';
 import ProjectTile from './projectTile';
 import projects from '../../data/projects.json';
 
-import style from './style.css';
-
 // List of Projects
 // Portfolio 2022
 // Advertise With Us
@@ -12,9 +10,9 @@ import style from './style.css';
 // Sonar Strike
 
 interface ProjectList  {
-    [key:string]: Project;
+    [key:string]: ProjectType;
 }
-export interface Project {
+export interface ProjectType {
     name: string,
     description: string,
     liveUrl?: string,
@@ -36,7 +34,7 @@ export interface Project {
 const Projects = () => {
     const Projects:ProjectList = projects;
 	return (
-		<div class={style.project}>
+		<div class="">
             <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                 <div className="flex flex-col mb-6 lg:justify-between lg:flex-row md:mb-8">
                     <h2 className="max-w-lg mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:mb-6 group">
@@ -53,7 +51,7 @@ const Projects = () => {
                     { Object.entries(Projects).map((project, index) => {
                         if (index < 4){
                             return (
-                                <ProjectTile key={index} project={project[1]} href={project[0]} />
+                                <ProjectTile key={index} project={project[1]} href={`projects/${project[0]}`} />
                             )}
                         }
                     )}
@@ -113,7 +111,7 @@ const Projects = () => {
                         { 
                             Object.entries(projects).map((project)=>{
                                 return (
-                                    <MiniTile key={project[0]} project={project[1]} href={project[0]} />
+                                    <MiniTile key={project[0]} project={project[1]} href={`projects/${project[0]}`} />
                                 )
                             })
                         }
