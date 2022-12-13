@@ -1,6 +1,8 @@
 import { h } from 'preact';
 // import MiniTile from './miniTile';
 import ProjectTile from './projectTile';
+import projects from '../../data/projects.json';
+
 import style from './style.css';
 
 // List of Projects
@@ -9,9 +11,30 @@ import style from './style.css';
 // Portfolio 2020
 // Sonar Strike
 
+interface ProjectList  {
+    [key:string]: Project;
+}
+interface Project {
+    name: string,
+    description: string,
+    liveUrl?: string,
+    gitUrl?: string,
+    imgUrl?: string,
+    imgAlt?: string,
+    subHeader1: string,
+    subDescription1: string,
+    subHeader2: string,
+    subDescription2: string,
+    subHeader3: string,
+    subDescription3: string,
+    subHeader4: string,
+    subDescription4: string
+}
+
 
 
 const Projects = () => {
+    const Projects:ProjectList = projects;
 	return (
 		<div class={style.project}>
             <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -27,10 +50,11 @@ const Projects = () => {
                     </p>
                 </div>
                 <div className="grid gap-6 row-gap-5 mb-8 lg:grid-cols-4 sm:row-gap-6 sm:grid-cols-2">
-                    <ProjectTile title="test" description="descript estion" href='' imgSrc='' imgAlt='testalt' />
-                    <ProjectTile title="test" description="descript estion" href='' imgSrc='' imgAlt='testalt' />
-                    <ProjectTile title="test" description="descript estion" href='' imgSrc='' imgAlt='testalt' />
-                    <ProjectTile title="test" description="descript estion" href='' imgSrc='' imgAlt='testalt' />
+                    { Object.entries(Projects).map((project, index) => {
+                        return (
+                            <ProjectTile key={index} project={project[1]} href={project[0]} />
+                        )}
+                    )}
                 </div>
                 <div className="text-center">
                     <a
