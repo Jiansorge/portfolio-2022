@@ -1,5 +1,4 @@
 import { h } from 'preact';
-import { useEffect, useState } from 'preact/hooks';
 import style from './style.css'
 
 interface Props {
@@ -8,14 +7,6 @@ interface Props {
 
 // Note: `name` comes from the URL, courtesy of our router
 const Project = ({ name }: Props) => {
-    const [time, setTime] = useState<number>(Date.now());
-    const [count, setCount] = useState<number>(0);
-
-    useEffect(() => {
-		const timer = setInterval(() => setTime(Date.now()), 1000);
-		return () => clearInterval(timer);
-	}, []);
-
     return (
 		<div class={style.project}>
             <div class="relative flex flex-col-reverse py-16 lg:py-0 lg:flex-col">
