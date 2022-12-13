@@ -1,26 +1,9 @@
 import { h } from 'preact';
-import style from './style.css';
+import { Project } from './projects'
 
 interface Props {
     project: Project
     href: string
-}
-
-interface Project {
-    name: string,
-    description: string,
-    liveUrl?: string,
-    gitUrl?: string,
-    imgUrl?: string,
-    imgAlt?: string,
-    subHeader1: string,
-    subDescription1: string,
-    subHeader2: string,
-    subDescription2: string,
-    subHeader3: string,
-    subDescription3: string,
-    subHeader4: string,
-    subDescription4: string
 }
 
 const ProjectTile = ({ project, href }: Props) => {

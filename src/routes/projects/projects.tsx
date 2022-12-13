@@ -14,7 +14,7 @@ import style from './style.css';
 interface ProjectList  {
     [key:string]: Project;
 }
-interface Project {
+export interface Project {
     name: string,
     description: string,
     liveUrl?: string,
