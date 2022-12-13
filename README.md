@@ -24,7 +24,6 @@ Icon from https://www.reshot.com/
 ## TODO
 
 - [ ] Create color theme config
-- [ ] Create data
 - [ ] Logo
 - [ ] SEO
 - [ ] Add images, about, project, homepage
