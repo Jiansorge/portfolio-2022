@@ -10,7 +10,7 @@ import projects from '../../data/projects.json';
 // Sonar Strike
 
 interface ProjectList  {
-    [key:string]: ProjectType;
+    [url:string]: ProjectType;
 }
 export interface ProjectType {
     name: string,

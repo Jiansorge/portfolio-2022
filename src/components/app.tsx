@@ -8,7 +8,6 @@ import Home from '../routes/home';
 import Projects from '../routes/projects/projects';
 import Project from '../routes/projects/project';
 import About from '../routes/about';
-import projects from '../data/projects.json';
 
 
 const App = () => (
@@ -17,7 +16,7 @@ const App = () => (
         <Router>
             <Route path="/" component={Home} />
             <Route path="/projects/" component={Projects} />
-            <Route path="/projects/:name" component={Project} project={projects['sonar-strike']} />
+            <Route path="/projects/:name" component={Project} />
             <Route path="/about/" component={About} />
         </Router>
         <Footer />

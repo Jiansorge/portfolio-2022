@@ -1,12 +1,11 @@
 import { h } from 'preact';
 import { ProjectType } from './projects'
-
-interface Props {
-    project: ProjectType;
-}
+import projects from '../../data/projects.json';
 
 // Note: `name` comes from the URL, courtesy of our router
-const Project = ({ project }: Props) => {
+const Project = () => {
+    const projectPath:string = window.location.pathname.split('/')[2];
+    const project:ProjectType = projects[projectPath];
     return (
 		<div class="">
             <div class="relative flex flex-col-reverse py-16 lg:py-0 lg:flex-col">
