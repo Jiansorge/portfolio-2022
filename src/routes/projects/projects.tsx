@@ -9,8 +9,8 @@ import projects from '../../data/projects.json';
 // Portfolio 2020
 // Sonar Strike
 
-interface ProjectList  {
-    [url:string]: ProjectType;
+export interface ProjectList  {
+    [key:string]: ProjectType;
 }
 export interface ProjectType {
     name: string,
