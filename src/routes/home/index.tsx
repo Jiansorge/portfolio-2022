@@ -8,7 +8,9 @@ const Home = () => (
 				<div className="max-w-md">
 				<h1 className="text-5xl font-bold">Hello! </h1>
 				<p className="py-6">My name is Jian.</p>
-				<button className="btn btn-primary">Check out my portfolio!</button>
+				<a href="/projects">
+					<button className="btn btn-primary">Check out my portfolio!</button>
+					</a>
 				</div>
 			</div>
 		</div>
