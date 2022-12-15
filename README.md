@@ -24,9 +24,10 @@ Icon from https://www.reshot.com/
 ## TODO
 
 - [ ] Create color theme config
+- [ ] Add images: about, project, homepage
+- [ ] Responsive design
 - [ ] Logo
 - [ ] SEO
-- [ ] Add images: about, project, homepage
 - [ ] CMS
 - [ ] Host site and rehost previous portfolio
 - [ ] Update readme
