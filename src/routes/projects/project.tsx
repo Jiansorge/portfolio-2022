@@ -18,24 +18,28 @@ const Project = () => {
                 <p class="mb-5 text-base text-gray-700 md:text-lg md:text-center">
                     {project.description}
                 </p>
-                <div class="text-center">
-                    <a
-                    href={project.liveUrl}
-                    class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                    >
-                        See the hosted project
+                {
+                    project.liveUrl
+                    && <div class="text-center">
+                        <a
+                        href={project.liveUrl}
+                        class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                        >
+                            See the hosted project
+                        </a>
+                    </div>
+                }
+                {
+                    project.gitUrl
+                    && <div class="mb-10 text-center md:mb-16 lg:mb-20">
+                        <a
+                        href={project.gitUrl}
+                        class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                        >
+                        Git Repo
                     </a>
                 </div>
-                <div class="mb-10 text-center md:mb-16 lg:mb-20">
-                    <a
-                    href={project.gitUrl}
-                    class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                    >
-                    Git Repo
-                    </a>
-                </div>
-
-
+                }
                 </div>
             </div>
             <div class="inset-y-0 top-0 right-0 w-full max-w-xl px-4 mx-auto mb-6 md:px-0 lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">
