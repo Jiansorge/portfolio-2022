@@ -26,8 +26,8 @@ Icon from https://www.reshot.com/
 - [ ] Create color theme config
 - [ ] Logo
 - [ ] SEO
-- [ ] Add images, about, project, homepage
+- [ ] Add images: about, project, homepage
 - [ ] CMS
 - [ ] Host site and rehost previous portfolio
 - [ ] Update readme
-- [ ] Front-end checklist
+- [ ] Front-end checklist 
