@@ -1,7 +1,6 @@
 import { h } from 'preact';
 import { useEffect, useState } from 'preact/hooks';
 import { Faq } from './faq';
-import style from './style.css';
 
 const About = () => {
     const [time, setTime] = useState<number>(Date.now());
