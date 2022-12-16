@@ -2,14 +2,14 @@ import { h } from 'preact';
 // import style from './style.css';
 
 const Home = () => (
-	<div>
+	<div class="text-pink">
 		<div className="hero min-h-screen bg-base-200">
 			<div className="hero-content text-center">
 				<div className="max-w-md">
-				<h1 className="text-5xl font-bold">Hello! </h1>
-				<p className="py-6">My name is Jian.</p>
-				<a href="/projects">
-					<button className="btn btn-primary">Check out my portfolio!</button>
+					<h1 className="text-5xl font-bold">Hello! </h1>
+					<p className="py-6">My name is Jian.</p>
+					<a href="/projects">
+						<button className="btn btn-primary text-indigo bg-purple">Check out my portfolio!</button>
 					</a>
 				</div>
 			</div>

@@ -3,7 +3,7 @@ import { h } from 'preact';
 
 const Footer = () => {
 	return(
-		<footer className="footer footer-center p-10 bg-primary text-primary-content">
+		<footer className="footer footer-center p-10 bg-purple text-indigo">
 			<div>
 				<img src="../../assets/icons/footer-logo.svg" alt="" />
 				<p className="font-bold">
