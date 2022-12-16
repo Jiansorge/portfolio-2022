@@ -2590,6 +2590,11 @@ html {
   background-color: rgb(255 150 131 / var(--tw-bg-opacity));
 }
 
+.bg-darkGrey {
+  --tw-bg-opacity: 1;
+  background-color: rgb(175 175 175 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-75 {
   --tw-bg-opacity: 0.75;
 }

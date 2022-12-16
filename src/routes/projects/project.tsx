@@ -8,7 +8,7 @@ const Project = () => {
     const projectList:ProjectList = projects;
     const project:ProjectType = projectList[projectPath];
     return (
-		<div class="">
+		<div class="text-pink">
             <div class="relative flex flex-col-reverse py-16 lg:py-0 lg:flex-col">
             <div class="w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:py-20 lg:max-w-screen-xl">
                 <div class="mb-0 lg:max-w-lg lg:pr-8 xl:pr-6">
