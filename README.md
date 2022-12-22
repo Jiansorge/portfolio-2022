@@ -27,8 +27,9 @@ Icon from https://www.reshot.com/
 - [ ] Add images: about, project, homepage
 - [ ] Responsive design
 - [ ] Logo
+- [ ] Textures
 - [ ] SEO
 - [ ] CMS
 - [ ] Host site and rehost previous portfolio
 - [ ] Update readme
-- [ ] Front-end checklist 
+- [ ] Front-end checklist
