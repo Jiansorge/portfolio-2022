@@ -2866,13 +2866,30 @@ html {
   key: string;
 }
 
+.hover\:hidden:hover {
+  display: none;
+}
+
 .hover\:-translate-y-2:hover {
   --tw-translate-y: -0.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.hover\:bg-purple:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(33 32 53 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-opacity-10:hover {
+  --tw-bg-opacity: 0.1;
+}
+
 .hover\:opacity-100:hover {
   opacity: 1;
+}
+
+.hover\:opacity-10:hover {
+  opacity: 0.1;
 }
 
 .hover\:shadow-2xl:hover {
