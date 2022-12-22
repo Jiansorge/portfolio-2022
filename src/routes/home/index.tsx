@@ -2,8 +2,8 @@ import { h } from 'preact';
 // import style from './style.css';
 
 const Home = () => (
-	<div class="text-pink">
-		<div className="hero min-h-screen bg-base-200 index-hero bg-[url('/assets/index-hero.jpg')]">
+	<div class="text-pink bg-purple">
+		<div className="hero min-h-screen bg-base-200 index-hero">
 			<div className="hero-content text-center">
 				<div className="max-w-md">
 					<h1 className="text-5xl font-bold">Hello! </h1>
@@ -13,6 +13,10 @@ const Home = () => (
 					</a>
 				</div>
 			</div>
+		</div>
+		<div class="px-4 py-2 flex flex-row-reverse">
+			<span>Image: <a class="text-indigo" href="https://dribbble.com/shots/3339732-Horizon" target="_blank" rel="noopener noreferrer">Horizon</a> by <a class="text-indigo" href="https://www.unlocklayer.com/" target="_blank" rel="noopener noreferrer">Jeremy Brown</a>
+			</span>
 		</div>
 
 		<section>

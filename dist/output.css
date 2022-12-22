@@ -2480,6 +2480,10 @@ html {
   grid-auto-flow: column;
 }
 
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -2579,18 +2583,14 @@ html {
   --tw-bg-opacity: 0.75;
 }
 
-
-
-.bg-\[url\(\'\/assets\/index-hero\.jpg\'\)\] {
-  background-image: url('/assets/index-hero.jpg');
-}
-
-
-
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.object-right {
+  -o-object-position: right;
+     object-position: right;
 }
 
 .p-10 {
@@ -2633,6 +2633,11 @@ html {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .pt-0 {
