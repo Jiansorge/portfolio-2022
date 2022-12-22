@@ -2520,16 +2520,16 @@ html {
   gap: 1.5rem;
 }
 
-.space-y-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-}
-
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
 .overflow-hidden {
@@ -2565,9 +2565,9 @@ html {
   border-left-width: 0px;
 }
 
-.bg-primary {
+.bg-purple {
   --tw-bg-opacity: 1;
-  background-color: hsl(var(--p) / var(--tw-bg-opacity));
+  background-color: rgb(33 32 53 / var(--tw-bg-opacity));
 }
 
 .bg-base-200 {
@@ -2575,29 +2575,18 @@ html {
   background-color: hsl(var(--b2, var(--b1)) / var(--tw-bg-opacity));
 }
 
-.bg-purple {
-  --tw-bg-opacity: 1;
-  background-color: rgb(33 32 53 / var(--tw-bg-opacity));
-}
-
-.bg-indigo {
-  --tw-bg-opacity: 1;
-  background-color: rgb(152 161 233 / var(--tw-bg-opacity));
-}
-
-.bg-pink {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 150 131 / var(--tw-bg-opacity));
-}
-
-.bg-darkGrey {
-  --tw-bg-opacity: 1;
-  background-color: rgb(175 175 175 / var(--tw-bg-opacity));
-}
-
 .bg-opacity-75 {
   --tw-bg-opacity: 0.75;
 }
+
+
+
+.bg-\[url\(\'\/assets\/index-hero\.jpg\'\)\] {
+  background-image: url('/assets/index-hero.jpg');
+}
+
+
+
 
 .object-cover {
   -o-object-fit: cover;
@@ -2662,10 +2651,6 @@ html {
   text-align: center;
 }
 
-.align-middle {
-  vertical-align: middle;
-}
-
 .font-sans {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -2728,11 +2713,6 @@ html {
   letter-spacing: 0.025em;
 }
 
-.text-primary-content {
-  --tw-text-opacity: 1;
-  color: hsl(var(--pc) / var(--tw-text-opacity));
-}
-
 .text-indigo {
   --tw-text-opacity: 1;
   color: rgb(152 161 233 / var(--tw-text-opacity));
@@ -2741,6 +2721,11 @@ html {
 .text-pink {
   --tw-text-opacity: 1;
   color: rgb(255 150 131 / var(--tw-text-opacity));
+}
+
+.text-purple {
+  --tw-text-opacity: 1;
+  color: rgb(33 32 53 / var(--tw-text-opacity));
 }
 
 .opacity-0 {

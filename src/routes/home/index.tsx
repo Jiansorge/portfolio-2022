@@ -3,11 +3,11 @@ import { h } from 'preact';
 
 const Home = () => (
 	<div class="text-pink">
-		<div className="hero min-h-screen bg-base-200">
+		<div className="hero min-h-screen bg-base-200 index-hero bg-[url('/assets/index-hero.jpg')]">
 			<div className="hero-content text-center">
 				<div className="max-w-md">
 					<h1 className="text-5xl font-bold">Hello! </h1>
-					<p className="py-6">My name is Jian.</p>
+					<p className="py-6 text-purple">My name is Jian.</p>
 					<a href="/projects">
 						<button className="btn btn-primary text-indigo bg-purple">Check out my portfolio!</button>
 					</a>
