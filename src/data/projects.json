@@ -51,7 +51,7 @@
     },
     "sonar-strike" : {
         "name": "Sonar Strike",
-        "description": "Prototype Underwater Shooter. High-speed  space shooter game made in entirely in React and JavaScript. Final project for JSCRIPT-300, React front-end development course.\n\n Play it at https://sonar-strike.jiansorge.now.sh/\n\nGame mechanics cloned from https://github.com/mauryaavinash95/sky-shooter.",
+        "description": "Prototype Underwater Shooter. High-speed  space shooter game made in entirely in React and JavaScript. Final project for JSCRIPT-300, React front-end development course.",
         "liveUrl": "https://sonar-strike.jiansorge.now.sh/",
         "gitUrl": "https://github.com/Jiansorge/JSCRIPT-300-Final-Project",
         "imgUrl": "../assets/project-images/sonic-striker-home.png",
