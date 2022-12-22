@@ -14,7 +14,7 @@ const Home = () => (
 				</div>
 			</div>
 		</div>
-		<div class="px-4 py-2 flex flex-row-reverse">
+		<div class="px-4 flex flex-row-reverse">
 			<span>Image: <a class="text-indigo" href="https://dribbble.com/shots/3339732-Horizon" target="_blank" rel="noopener noreferrer">Horizon</a> by <a class="text-indigo" href="https://www.unlocklayer.com/" target="_blank" rel="noopener noreferrer">Jeremy Brown</a>
 			</span>
 		</div>
