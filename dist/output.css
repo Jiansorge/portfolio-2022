@@ -2583,14 +2583,13 @@ html {
   --tw-bg-opacity: 0.75;
 }
 
+.bg-index-hero {
+  background-image: url('/assets/index-hero.jpg');
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.object-right {
-  -o-object-position: right;
-     object-position: right;
 }
 
 .p-10 {
@@ -2625,6 +2624,11 @@ html {
   padding-bottom: 1.5rem;
 }
 
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -2633,11 +2637,6 @@ html {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 .pt-0 {

@@ -3,7 +3,7 @@ import { h } from 'preact';
 
 const Home = () => (
 	<div class="text-pink bg-purple">
-		<div className="hero min-h-screen bg-base-200 index-hero">
+		<div className="hero min-h-screen bg-base-200 bg-index-hero">
 			<div className="hero-content text-center">
 				<div className="max-w-md">
 					<h1 className="text-5xl font-bold">Hello! </h1>

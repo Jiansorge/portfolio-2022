@@ -2,7 +2,12 @@
 module.exports = {
   content: ['./src/**/*.{html,js,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'index-hero': "url('/assets/index-hero.jpg')",
+        // 'footer-texture': "url('/assets/logo.png')",
+      }
+    },
     colors: {
       pink: '#ff9683',
       purple: '#212035',
