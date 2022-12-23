@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'index-hero': "url('/assets/index-hero.jpg')",
+        'index-hero': "url('/assets/index-hero.gif')",
         // 'footer-texture': "url('/assets/logo.png')",
       }
     },
