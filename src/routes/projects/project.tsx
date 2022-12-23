@@ -75,7 +75,7 @@ const Project = () => {
 
                 <div class="grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2">
                     <div class="duration-300 transform hover:-translate-y-2">
-                        <div class="h-full p-5 border rounded-md shadow-sm">
+                        <div class="h-full p-5 border rounded-md shadow-sm border-indigo">
                             <h6 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader1}</h6>
                             <p class="text-sm text-gray-900">
                             {project.subDescription1}
@@ -83,7 +83,7 @@ const Project = () => {
                         </div>
                     </div>
                     <div class="duration-300 transform hover:-translate-y-2">
-                        <div class="h-full p-5 border rounded-md shadow-sm">
+                        <div class="h-full p-5 border rounded-md shadow-sm border-indigo">
                             <h6 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader2}</h6>
                             <p class="text-sm text-gray-900">
                                 {project.subDescription2}
@@ -91,7 +91,7 @@ const Project = () => {
                         </div>
                     </div>
                     <div class="duration-300 transform hover:-translate-y-2">
-                        <div class="h-full p-5 border rounded-md shadow-sm">
+                        <div class="h-full p-5 border rounded-md shadow-sm border-indigo">
                             <h6 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader3}</h6>
                             <p class="text-sm text-gray-900">
                                 {project.subDescription3}
@@ -99,7 +99,7 @@ const Project = () => {
                         </div>
                     </div>
                     <div class="duration-300 transform hover:-translate-y-2">
-                        <div class="h-full p-5 border rounded-md shadow-sm">
+                        <div class="h-full p-5 border rounded-md shadow-sm border-indigo">
                             <h6 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader4}</h6>
                             <p class="text-sm text-gray-900">
                                 {project.subDescription4}
