@@ -3,7 +3,7 @@ import { Link } from 'preact-router/match';
 import style from './style.css';
 
 const Header = () => (
-	<header class="bg-purple flex justify-between items-center text-pink">
+	<header class="bg-purple flex justify-between items-center text-teal">
 		<a class="flex items-center space-x-4 p-4" href="/">
 			<img src="./assets/icons/android-chrome-512x512.png" alt="" width="50" />
 			<h1 class="">Jian Sorge's Portfolio</h1>
