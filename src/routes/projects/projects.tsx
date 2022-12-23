@@ -43,7 +43,7 @@ const Projects = () => {
                         </span>
                         <div className="h-1 ml-auto duration-300 origin-left transform bg-deep-purple-accent-400 scale-x-30 group-hover:scale-x-100" />
                     </h2>
-                    <p className="text-indigo font-boldlg:text-sm lg:max-w-md">
+                    <p className="lg:text-sm lg:max-w-md">
                         Here are some of my portfolio highlights.
                     </p>
                 </div>
@@ -56,7 +56,7 @@ const Projects = () => {
                         }
                     )}
                 </div>
-                <div className="text-center text-pink">
+                <div className="text-center text-yellow">
                     <a
                     href="https://github.com/Jiansorge"
                     target="_blank" rel="noopener noreferrer"

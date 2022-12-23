@@ -2631,6 +2631,11 @@ html {
   border-left-width: 0px;
 }
 
+.border-teal {
+  --tw-border-opacity: 1;
+  border-color: rgb(100 205 226 / var(--tw-border-opacity));
+}
+
 .bg-purple {
   --tw-bg-opacity: 1;
   background-color: rgb(33 32 53 / var(--tw-bg-opacity));
@@ -2817,6 +2822,14 @@ html {
 .text-teal {
   --tw-text-opacity: 1;
   color: rgb(100 205 226 / var(--tw-text-opacity));
+}
+
+.text-blue {
+  color: rbg(92,113,222);
+}
+
+.text-lightPurple {
+  color: rbg(112,65,130);
 }
 
 .opacity-0 {

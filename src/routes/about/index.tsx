@@ -25,7 +25,7 @@ const About = () => {
 						</svg>
 					</div> */}
 					<div class="max-w-xl mb-12">
-						<h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-indigo sm:text-4xl sm:leading-none">
+						<h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-pink sm:text-4xl sm:leading-none">
 							About Jian
 						</h2>
 						<p class="text-base text-gray-700 md:text-lg">
