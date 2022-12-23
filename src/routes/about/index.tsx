@@ -54,7 +54,7 @@ const About = () => {
 							src="../../assets/about-images/potato-cannon.jpg"
 							alt="me shooting a potato cannon"
 							/>
-							<img class="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40" src="../../assets/about-images/avatar.png" alt="my avatar in powerpuff theme" />
+							<img class="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40" src="../../assets/about-images/avatar.svg" alt="my avatar in powerpuff theme" />
 						</div>
 						<div class="px-3">
 							<img class="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80" src="../../assets/about-images/about2.jpg" alt="making Arduino robots at Stanford" />
