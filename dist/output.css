@@ -2866,6 +2866,10 @@ html {
   color: rbg(112,65,130);
 }
 
+.underline {
+  text-decoration-line: underline;
+}
+
 .opacity-0 {
   opacity: 0;
 }

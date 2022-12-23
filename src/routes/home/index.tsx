@@ -14,8 +14,8 @@ const Home = () => (
 				</div>
 			</div>
 		</div>
-		<div class="px-4 flex flex-row-reverse text-yellow">
-			<span>Image: <a class="text-pink" href="https://dribbble.com/shots/3339732-Horizon" target="_blank" rel="noopener noreferrer">Horizon</a> by <a class="text-pink" href="https://www.unlocklayer.com/" target="_blank" rel="noopener noreferrer">Jeremy Brown</a>
+		<div class="p-4 flex flex-row-reverse text-pink">
+			<span>Image: <a class="text-yellow underline" href="https://dribbble.com/shots/3339732-Horizon" target="_blank" rel="noopener noreferrer">Horizon</a> by <a class="text-yellow underline" href="https://www.unlocklayer.com/" target="_blank" rel="noopener noreferrer">Jeremy Brown</a>
 			</span>
 		</div>
 
