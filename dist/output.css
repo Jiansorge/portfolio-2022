@@ -2646,6 +2646,11 @@ html {
   background-color: hsl(var(--b2, var(--b1)) / var(--tw-bg-opacity));
 }
 
+.bg-indigo {
+  --tw-bg-opacity: 1;
+  background-color: rgb(152 161 233 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-75 {
   --tw-bg-opacity: 0.75;
 }

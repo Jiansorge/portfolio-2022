@@ -14,7 +14,7 @@ const MiniTile = ({ project, href }: Props) => {
                 src={project.imgUrl}
                 alt={project.imgAlt}
             />
-            <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">
+            <p className="mb-2 text-xl font-bold leading-none sm:text-2xl text-pink">
                 {project.name}
             </p>
             <p className="text-gray-700">
