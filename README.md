@@ -24,6 +24,8 @@ Icon from https://www.reshot.com/
 ## TODO
 
 - [ ] Add hover affects and transitions
+- [ ] button classes
+- [ ] full height nav
 - [ ] borders
 - [ ] remove unused classes
 - [ ] Add background textures
