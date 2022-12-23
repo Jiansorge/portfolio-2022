@@ -4,7 +4,7 @@ import style from './style.css';
 
 const Header = () => (
 	<header class="bg-purple flex justify-between items-center text-teal">
-		<a class="flex items-center space-x-4 p-4" href="/">
+		<a class="flex items-center space-x-4 px-6 py-4" href="/">
 			<img src="./assets/icon.png" alt="" width="50" />
 			<h1 class="font-bold">Jian Sorge's Portfolio</h1>
 		</a>
