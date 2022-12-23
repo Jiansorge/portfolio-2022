@@ -76,7 +76,7 @@ const Projects = () => {
             </div>
 
             { Object.keys(projects).length > 4 &&
-                <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+                <div className="px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                     <div className="flex flex-col w-full mb-6 lg:justify-between lg:flex-row md:mb-8">
                         <div className="flex items-center mb-5 md:mb-6 group lg:max-w-xl">
                             <a href="/" aria-label="Item" className="mr-3">
@@ -102,21 +102,19 @@ const Projects = () => {
                             </h2>
                         </div>
                             <p className="w-full text-gray-700 lg:text-sm lg:max-w-md">
-                                "Sed ut perspiciatis unde omnis iste natus error sit iste voluptatem
-                                accusantium doloremque rem aperiam, ipsa eaque quae. Sed ut
-                                perspiciatis unde omnis iste."
+                                Here are some more projects I've created.
                             </p>
                     </div>
                     <div className="grid gap-8 row-gap-5 mb-8 lg:grid-cols-3 lg:row-gap-8">
                         { 
-                            Object.entries(projects).map((project)=>{
+                            Object.entries(projects).slice(4).map((project)=>{
                                 return (
                                     <MiniTile key={project[0]} project={project[1]} href={`projects/${project[0]}`} />
                                 )
                             })
                         }
                     </div>
-                    <div className="text-center">
+                    {/* <div className="text-center">
                         <a
                         href="/"
                         aria-label=""
@@ -131,7 +129,7 @@ const Projects = () => {
                             <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
                         </svg>
                         </a>
-                    </div>
+                    </div> */}
                 </div>
             }
 		</div>
