@@ -9,13 +9,13 @@ const Home = () => (
 					<h1 className="text-5xl font-bold">Hello! </h1>
 					<p className="py-6 font-bold">My name is Jian.</p>
 					<a href="/projects">
-						<button className="btn btn-primary text-yellow bg-purple">Check out my portfolio!</button>
+						<button className="btn btn-primary text-yellow bg-purple hover:text-teal transition-colors duration-200">Check out my portfolio!</button>
 					</a>
 				</div>
 			</div>
 		</div>
 		<div class="p-4 flex flex-row-reverse text-pink">
-			<span>Image: <a class="text-yellow underline" href="https://dribbble.com/shots/3339732-Horizon" target="_blank" rel="noopener noreferrer">Horizon</a> by <a class="text-yellow underline" href="https://www.unlocklayer.com/" target="_blank" rel="noopener noreferrer">Jeremy Brown</a>
+			<span>Image: <a class="text-yellow underline hover:text-teal transition-colors duration-200" href="https://dribbble.com/shots/3339732-Horizon" target="_blank" rel="noopener noreferrer">Horizon</a> by <a class="text-yellow underline hover:text-teal transition-colors duration-200" href="https://www.unlocklayer.com/" target="_blank" rel="noopener noreferrer">Jeremy Brown</a>
 			</span>
 		</div>
 
