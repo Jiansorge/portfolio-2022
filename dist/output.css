@@ -2610,6 +2610,18 @@ html {
   border-radius: 0.25rem;
 }
 
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .rounded-r {
   border-top-right-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
@@ -2631,9 +2643,21 @@ html {
   border-left-width: 0px;
 }
 
+.border-solid {
+  border-style: solid;
+}
+
 .border-teal {
   --tw-border-opacity: 1;
   border-color: rgb(100 205 226 / var(--tw-border-opacity));
+}
+
+.border-lightPurple {
+  border-color: rbg(112,65,130);
+}
+
+.border-blue {
+  border-color: rbg(92,113,222);
 }
 
 .bg-purple {
@@ -2700,6 +2724,11 @@ html {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .pt-6 {
@@ -2909,6 +2938,31 @@ html {
 .hover\:bg-purple:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(33 32 53 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-teal:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 205 226 / var(--tw-bg-opacity));
+}
+
+.hover\:text-purple:hover {
+  --tw-text-opacity: 1;
+  color: rgb(33 32 53 / var(--tw-text-opacity));
+}
+
+.hover\:text-teal:hover {
+  --tw-text-opacity: 1;
+  color: rgb(100 205 226 / var(--tw-text-opacity));
+}
+
+.hover\:text-pink:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 150 131 / var(--tw-text-opacity));
+}
+
+.hover\:text-indigo:hover {
+  --tw-text-opacity: 1;
+  color: rgb(152 161 233 / var(--tw-text-opacity));
 }
 
 .hover\:opacity-100:hover {

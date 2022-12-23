@@ -56,21 +56,23 @@ const Projects = () => {
                         }
                     )}
                 </div>
-                <div className="text-center text-yellow">
+                <div className="text-center text-yellow pt-6">
                     <a
                     href="https://github.com/Jiansorge"
                     target="_blank" rel="noopener noreferrer"
                     aria-label=""
-                    className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-                    >
-                        See My Github Repos
-                        <svg
-                            className="inline-block w-3 ml-2"
-                            fill="currentColor"
-                            viewBox="0 0 12 12"
-                        >
-                            <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
-                        </svg>
+                    className="inline-flex items-center font-semibold "
+                    > 
+                        <button class="px-6 py-2 transition-colors duration-200  border border-teal bg-purple hover:bg-teal hover:text-purple rounded-lg">
+                            See My Github Repos
+                            <svg
+                                className="inline-block w-3 ml-2"
+                                fill="currentColor"
+                                viewBox="0 0 12 12"
+                            >
+                                <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
+                            </svg>
+                        </button>
                     </a>
                 </div>
             </div>
