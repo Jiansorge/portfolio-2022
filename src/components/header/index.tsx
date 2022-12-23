@@ -9,10 +9,10 @@ const Header = () => (
 			<h1 class="font-bold">Jian Sorge's Portfolio</h1>
 		</a>
 
-		<nav class="px-4 space-x-4 font-bold">
-			<Link activeClassName={style.active} class="" href="/">Home</Link>
-			<Link activeClassName={style.active} href="/projects">Projects</Link>
-			<Link activeClassName={style.active} href="/about">About</Link>
+		<nav class="px-4 space-x-4 font-bold h-full">
+			<Link activeClassName="text-pink" class="hover:text-yellow transition-colors duration-200" href="/">Home</Link>
+			<Link activeClassName="text-pink" class="hover:text-yellow transition-colors duration-200" href="/projects">Projects</Link>
+			<Link activeClassName="text-pink" class="hover:text-yellow transition-colors duration-200" href="/about">About</Link>
 		</nav>
 	</header>
 );

@@ -2472,6 +2472,11 @@ html {
   height: 0.25rem;
 }
 
+.h-max {
+  height: -moz-max-content;
+  height: max-content;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -2673,6 +2678,11 @@ html {
 .bg-indigo {
   --tw-bg-opacity: 1;
   background-color: rgb(152 161 233 / var(--tw-bg-opacity));
+}
+
+.bg-teal {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 205 226 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-75 {
@@ -2967,6 +2977,11 @@ html {
 .hover\:text-indigo:hover {
   --tw-text-opacity: 1;
   color: rgb(152 161 233 / var(--tw-text-opacity));
+}
+
+.hover\:text-yellow:hover {
+  --tw-text-opacity: 1;
+  color: rgb(250 240 75 / var(--tw-text-opacity));
 }
 
 .hover\:opacity-100:hover {
