@@ -16,7 +16,7 @@ const ProjectTile = ({ project, href }: Props) => {
                 alt={project.imgAlt}
                 />
                 <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100 hover:bg-purple">
-                    <p className="mb-4 text-lg font-bold text-gray-100">{project.name}</p>
+                    <p className="mb-4 text-lg font-bold text-indigo">{project.name}</p>
                     <p className="text-sm tracking-wide text-gray-300">
                         {project.description}
                     </p>

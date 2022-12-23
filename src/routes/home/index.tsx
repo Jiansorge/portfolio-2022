@@ -2,20 +2,20 @@ import { h } from 'preact';
 // import style from './style.css';
 
 const Home = () => (
-	<div class="text-pink bg-purple">
+	<div class="text-purple bg-purple">
 		<div className="hero min-h-screen bg-base-200 bg-index-hero">
 			<div className="hero-content text-center">
 				<div className="max-w-md">
 					<h1 className="text-5xl font-bold">Hello! </h1>
-					<p className="py-6 text-purple">My name is Jian.</p>
+					<p className="py-6 font-bold">My name is Jian.</p>
 					<a href="/projects">
-						<button className="btn btn-primary text-indigo bg-purple">Check out my portfolio!</button>
+						<button className="btn btn-primary text-yellow bg-purple">Check out my portfolio!</button>
 					</a>
 				</div>
 			</div>
 		</div>
-		<div class="px-4 flex flex-row-reverse">
-			<span>Image: <a class="text-indigo" href="https://dribbble.com/shots/3339732-Horizon" target="_blank" rel="noopener noreferrer">Horizon</a> by <a class="text-indigo" href="https://www.unlocklayer.com/" target="_blank" rel="noopener noreferrer">Jeremy Brown</a>
+		<div class="px-4 flex flex-row-reverse text-yellow">
+			<span>Image: <a class="text-pink" href="https://dribbble.com/shots/3339732-Horizon" target="_blank" rel="noopener noreferrer">Horizon</a> by <a class="text-pink" href="https://www.unlocklayer.com/" target="_blank" rel="noopener noreferrer">Jeremy Brown</a>
 			</span>
 		</div>
 

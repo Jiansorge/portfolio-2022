@@ -2786,14 +2786,19 @@ html {
   letter-spacing: 0.025em;
 }
 
+.text-pink {
+  --tw-text-opacity: 1;
+  color: rgb(255 150 131 / var(--tw-text-opacity));
+}
+
 .text-indigo {
   --tw-text-opacity: 1;
   color: rgb(152 161 233 / var(--tw-text-opacity));
 }
 
-.text-pink {
+.text-yellow {
   --tw-text-opacity: 1;
-  color: rgb(255 150 131 / var(--tw-text-opacity));
+  color: rgb(250 240 75 / var(--tw-text-opacity));
 }
 
 .text-purple {

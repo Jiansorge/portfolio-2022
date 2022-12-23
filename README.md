@@ -24,7 +24,6 @@ Icon from https://www.reshot.com/
 ## TODO
 
 - [ ] Create color theme config
-- [ ] Add images: about
 - [ ] Add background textures
 - [ ] Responsive design
 - [ ] Logo
