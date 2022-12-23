@@ -23,7 +23,7 @@ Icon from https://www.reshot.com/
 
 ## TODO
 
-- [ ] Create color theme config
+- [ ] Add hover affects and transitions
 - [ ] Add background textures
 - [ ] Responsive design
 - [ ] Logo
