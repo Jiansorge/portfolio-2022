@@ -11,11 +11,11 @@ const Project = () => {
 		<div class="text-yellow">
             <div class="relative flex flex-col-reverse pt-16 pb-4 lg:py-0 lg:flex-col">
                 <div class="w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:py-20 lg:max-w-screen-xl">
-                    <div class="mb-0 pt-6 lg:max-w-lg lg:pr-8 xl:pr-6">
+                    <div class="mb-0 py-6 lg:max-w-lg lg:pr-8 xl:pr-6 space-y-4">
                         <h2 class="mb-5 font-sans text-3xl font-bold tracking-tight text-pink sm:text-4xl sm:leading-none md:text-center">
                             {project.name}
                         </h2>
-                        <p class="mb-5 text-base text-gray-700 md:text-lg md:text-center">
+                        <p class="pt-4 mb-5 text-base text-gray-700 md:text-lg md:text-center">
                             {project.description}
                         </p>
                         {
@@ -23,7 +23,7 @@ const Project = () => {
                             && <div class="text-center">
                                 <a
                                 href={project.liveUrl}
-                                class="inline-flex items-center justify-center w-full h-12 px-6 pt-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                                class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                                 >                        
                                     <button class="px-6 py-2 transition-colors duration-200  border border-teal bg-purple hover:bg-teal hover:text-purple rounded-lg">
 
@@ -41,7 +41,7 @@ const Project = () => {
                         }
                         {
                             project.gitUrl
-                            && <div class="m-8 text-center">
+                            && <div class="text-center">
                                 <a
                                 href={project.gitUrl}
                                 class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
@@ -64,14 +64,14 @@ const Project = () => {
                 </div>
                 <div class="inset-y-0 top-0 right-0 w-full max-w-xl px-4 mx-auto mb-6 md:px-0 lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">
                     <img
-                    class="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
+                    class="object-contain w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
                     src={project.imgUrl}
                     alt={project.imgAlt}
                     />
                 </div>
             </div>
 
-            <div class="px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+            <div class="px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-teal">
 
                 <div class="grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2">
                     <div class="duration-300 transform hover:-translate-y-2">
