@@ -5,7 +5,7 @@ import { Link } from 'preact-router/match';
 const Header = () => (
 	<header class="bg-purple flex justify-between items-center text-teal">
 		<a class=" hover:text-pink transition-colors duration-200 flex items-center space-x-2 px-6" href="/">
-			<img src="./assets/icon.png" alt="" width="50" />
+			<img src="/assets/icon.png" alt="" width="50" height="50" />
 			<h1 class="font-bold">Jian Sorge's Portfolio</h1>
 		</a>
 
