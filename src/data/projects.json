@@ -3,7 +3,7 @@
     "portfolio-2022" : {
         "name": "Portfolio 2022",
         "description": "This website was made using a Preact +  TypeScript starter template. It utilizes Tailwind CSS and Daisy UI for styled components.",
-        "liveUrl": "https://www.jiansorge.com/",
+        "liveUrl": "",
         "gitUrl": "https://github.com/Jiansorge/portfolio-2022",
         "imgUrl": "../assets/project-images/portfolio-2022.png",
         "imgAlt": "screenshot of 8-bit multicolored sunset from portfolio homepage",
