@@ -32,6 +32,7 @@ Icon from https://www.reshot.com/
 - [ ] Responsive design
 - [ ] Deploy via Netlify to get SSL
 - [ ] Add random effects
+- [ ] responsive images
 - [ ] Textures
 - [ ] SEO
 - [ ] CMS
@@ -39,3 +40,9 @@ Icon from https://www.reshot.com/
 - [ ] Optional Sound
 - [ ] Update readme
 - [ ] Front-end checklist
+- [ ] JSON-LD
+- [ ] sitemap
+- [ ] robots.txt
+- [ ] social links
+- [ ] icons for all sizes
+- [ ] highlight svgs
