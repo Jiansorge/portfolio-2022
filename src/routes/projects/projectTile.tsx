@@ -11,7 +11,7 @@ const ProjectTile = ({ project, href }: Props) => {
         <a href={href} aria-label="View Item">
             <div className="text-teal relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
                 <img
-                className="object-contain w-full h-56 md:h-64 xl:h-80 hover:hidden"
+                className="object-cover w-full h-56 md:h-64 xl:h-80 hover:hidden"
                 src={project.imgUrl}
                 alt={project.imgAlt}
                 />
