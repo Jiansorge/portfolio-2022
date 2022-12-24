@@ -26,7 +26,6 @@ Icon from https://www.reshot.com/
 - [ ] Add hover affects and transitions
 - [ ] add button component
 - [ ] new dark color for active nav
-- [ ] xs screen sizing
 - [ ] borders
 - [ ] remove unused classes
 - [ ] Add background textures
