@@ -34,7 +34,7 @@ export interface ProjectType {
 const Projects = () => {
     const Projects:ProjectList = projects;
 	return (
-		<div class="text-yellow">
+		<div class="text-yellow bg-gradient-to-b from-purple via-lightPurple to-purple">
             <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                 <div className="flex flex-col mb-6 lg:justify-between lg:flex-row md:mb-8">
                     <h2 className="text-pink max-w-lg mb-8 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:mb-6 group">

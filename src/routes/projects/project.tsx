@@ -8,7 +8,7 @@ const Project = () => {
     const projectList:ProjectList = projects;
     const project:ProjectType = projectList[projectPath];
     return (
-		<div class="text-yellow">
+		<div class="text-yellow bg-gradient-to-b from-purple via-lightPurple to-purple">
             <div class="relative flex flex-col-reverse pt-16 pb-4 lg:py-0 lg:flex-col">
                 <div class="w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:py-20 lg:max-w-screen-xl">
                     <div class="mb-0 py-6 lg:max-w-lg lg:pr-8 xl:pr-6 space-y-4">
@@ -74,7 +74,7 @@ const Project = () => {
             <div class="px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-teal">
 
                 <div class="grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2">
-                    <div class="duration-300 transform hover:-translate-y-2">
+                    <div class="duration-300 transform hover:-translate-y-2 bg-purple">
                         <div class="h-full p-5 border rounded-md shadow-sm border-indigo">
                             <h6 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader1}</h6>
                             <p class="text-sm text-gray-900">
@@ -82,7 +82,7 @@ const Project = () => {
                             </p>
                         </div>
                     </div>
-                    <div class="duration-300 transform hover:-translate-y-2">
+                    <div class="duration-300 transform hover:-translate-y-2 bg-purple">
                         <div class="h-full p-5 border rounded-md shadow-sm border-indigo">
                             <h6 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader2}</h6>
                             <p class="text-sm text-gray-900">
@@ -90,7 +90,7 @@ const Project = () => {
                             </p>
                         </div>
                     </div>
-                    <div class="duration-300 transform hover:-translate-y-2">
+                    <div class="duration-300 transform hover:-translate-y-2 bg-purple">
                         <div class="h-full p-5 border rounded-md shadow-sm border-indigo">
                             <h6 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader3}</h6>
                             <p class="text-sm text-gray-900">
@@ -98,7 +98,7 @@ const Project = () => {
                             </p>
                         </div>
                     </div>
-                    <div class="duration-300 transform hover:-translate-y-2">
+                    <div class="duration-300 transform hover:-translate-y-2 bg-purple">
                         <div class="h-full p-5 border rounded-md shadow-sm border-indigo">
                             <h6 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader4}</h6>
                             <p class="text-sm text-gray-900">
