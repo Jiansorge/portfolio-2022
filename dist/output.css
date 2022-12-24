@@ -2390,6 +2390,10 @@ html {
   display: grid;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-full {
   height: 100%;
 }
@@ -2950,6 +2954,10 @@ html {
 
   .sm\:mb-4 {
     margin-bottom: 1rem;
+  }
+
+  .sm\:inline-block {
+    display: inline-block;
   }
 
   .sm\:h-48 {
