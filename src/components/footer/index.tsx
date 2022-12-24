@@ -5,7 +5,7 @@ const Footer = () => {
 	return(
 		<footer className="footer footer-center py-6 bg-purple text-indigo flex justify-center">
 				{/* <img src="../../assets/icons/footer-logo.svg" alt="" /> */}
-				<span className="">Jian Sorge</span>
+				<a href="/" className="">Jian Sorge</a>
 				<span>|</span>
 				<span>Front-end Web Developer</span>
 				<span>|</span>
