@@ -63,7 +63,7 @@ const Projects = () => {
                     aria-label=""
                     className="inline-flex items-center font-semibold "
                     > 
-                        <button class="px-6 py-2 transition-colors duration-200  border border-teal bg-purple hover:bg-teal hover:text-purple rounded-lg">
+                        <button class="px-6 py-2 transition-colors duration-200  border border-teal bg-purple hover:bg-teal hover:text-purple rounded-lg shadow-md">
                             See My Github Repos
                             <svg
                                 className="inline-block w-3 ml-2"

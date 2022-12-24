@@ -21,11 +21,12 @@ const Project = () => {
                         {
                             project.liveUrl
                             && <div class="text-center">
+                                <button class="px-6 py-2 transition-colors duration-200  shadow-md border border-teal text-pink bg-purple hover:bg-teal hover:text-purple rounded-lg">
                                 <a
                                 href={project.liveUrl}
-                                class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                                class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                                 >                        
-                                    <button class="px-6 py-2 transition-colors duration-200  border border-teal text-pink bg-purple hover:bg-teal hover:text-purple rounded-lg">
+
 
                                         See the hosted project
                                         <svg
@@ -35,8 +36,9 @@ const Project = () => {
                                         >
                                             <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
                                         </svg>
-                                    </button>.
                                 </a>
+                                </button>
+           
                             </div>
                         }
                         {
