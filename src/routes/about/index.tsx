@@ -24,8 +24,8 @@ const About = () => {
 						<rect x="9" y="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" width="6" height="4" stroke-linejoin="round"></rect>
 						</svg>
 					</div> */}
-					<div class="max-w-xl mb-12">
-						<h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-pink sm:text-4xl sm:leading-none">
+					<div class="max-w-xl ">
+						<h2 class="max-w-lg mb-8 font-sans text-3xl font-bold tracking-tight text-pink sm:text-4xl sm:leading-none">
 							About Jian
 						</h2>
 						<p class="text-base text-gray-700 md:text-lg">
