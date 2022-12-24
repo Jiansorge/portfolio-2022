@@ -36,7 +36,7 @@
     "archived-portfolio" : {
         "name": "Archived Portfolio",
         "description": "An old portfolio built from a Gatsby and Contentful template.",
-        "liveUrl": "",
+        "liveUrl": "https://www.nsorge.com/",
         "gitUrl": "https://bitbucket.org/jiansorge/personal-website-1/src/master/",
         "imgUrl": "../assets/project-images/archived-portfolio.png",
         "imgAlt": "screenshot of archived porfolio projects page",
