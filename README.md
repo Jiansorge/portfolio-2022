@@ -37,6 +37,5 @@ Icon from https://www.reshot.com/
 - [ ] CMS
 - [ ] lazy load images
 - [ ] Optional Sound
-- [ ] Host site and rehost previous portfolio
 - [ ] Update readme
 - [ ] Front-end checklist
