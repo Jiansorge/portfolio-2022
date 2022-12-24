@@ -3,9 +3,9 @@ import { h } from 'preact';
 
 const Footer = () => {
 	return(
-		<footer className="footer footer-center py-6 bg-purple text-indigo flex justify-center">
+		<footer className="footer footer-center py-6 bg-purple flex justify-center text-indigo">
 				{/* <img src="../../assets/icons/footer-logo.svg" alt="" /> */}
-				<a href="/" className="">Jian Sorge</a>
+				<a href="/" className="hover:text-pink transition-colors duration-200">Jian Sorge</a>
 				<span>|</span>
 				<span>Front-end Web Developer</span>
 				<span>|</span>
