@@ -17,7 +17,7 @@ const Item = ({ title, children }: Props) => {
           className="flex items-center justify-between w-full p-4 focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
         >
-          <p className="text-lg font-medium text-pink">{title}</p>
+          <p className="text-left text-lg font-medium text-pink">{title}</p>
           <svg
             viewBox="0 0 24 24"
             className={`w-3 transform transition-transform duration-200 ${
