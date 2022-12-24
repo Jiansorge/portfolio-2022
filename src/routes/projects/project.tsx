@@ -15,7 +15,7 @@ const Project = () => {
                         <h2 class="mb-5 font-sans text-3xl font-bold tracking-tight text-pink sm:text-4xl sm:leading-none md:text-center">
                             {project.name}
                         </h2>
-                        <p class="pt-4 mb-5 text-base text-gray-700 md:text-lg md:text-center">
+                        <p class="pt-4 pb-6 text-base text-gray-700 md:text-lg md:text-center">
                             {project.description}
                         </p>
                         {
@@ -25,7 +25,7 @@ const Project = () => {
                                 href={project.liveUrl}
                                 class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                                 >                        
-                                    <button class="px-6 py-2 transition-colors duration-200  border border-teal bg-purple hover:bg-teal hover:text-purple rounded-lg">
+                                    <button class="px-6 py-2 transition-colors duration-200  border border-teal text-pink bg-purple hover:bg-teal hover:text-purple rounded-lg">
 
                                         See the hosted project
                                         <svg
@@ -46,7 +46,7 @@ const Project = () => {
                                 href={project.gitUrl}
                                 class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                                 >
-                                    <button class="px-6 py-2 transition-colors duration-200  border border-teal bg-purple hover:bg-teal hover:text-purple rounded-lg">
+                                    <button class="px-6 py-2 transition-colors duration-200  border border-teal bg-purple text-pink hover:bg-teal hover:text-purple rounded-lg">
                                         Git Repo
                                         <svg
                                         className="inline-block w-3 ml-2"
