@@ -74,32 +74,32 @@ const Project = () => {
             <div class="px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-teal">
 
                 <div class="grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2">
-                    <div class="duration-300 transform hover:-translate-y-2 bg-purple">
-                        <div class="h-full p-5 border rounded-md shadow-sm border-indigo">
+                    <div class="duration-300 transform hover:-translate-y-2">
+                        <div class="h-full p-5 border rounded-md shadow-sm border-indigo bg-purple">
                             <h6 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader1}</h6>
                             <p class="text-sm text-gray-900">
                             {project.subDescription1}
                             </p>
                         </div>
                     </div>
-                    <div class="duration-300 transform hover:-translate-y-2 bg-purple">
-                        <div class="h-full p-5 border rounded-md shadow-sm border-indigo">
+                    <div class="duration-300 transform hover:-translate-y-2">
+                        <div class="h-full p-5 border rounded-md shadow-sm border-indigo bg-purple ">
                             <h6 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader2}</h6>
                             <p class="text-sm text-gray-900">
                                 {project.subDescription2}
                             </p>
                         </div>
                     </div>
-                    <div class="duration-300 transform hover:-translate-y-2 bg-purple">
-                        <div class="h-full p-5 border rounded-md shadow-sm border-indigo">
+                    <div class="duration-300 transform hover:-translate-y-2">
+                        <div class="h-full p-5 border rounded-md shadow-sm border-indigo bg-purple">
                             <h6 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader3}</h6>
                             <p class="text-sm text-gray-900">
                                 {project.subDescription3}
                             </p>
                         </div>
                     </div>
-                    <div class="duration-300 transform hover:-translate-y-2 bg-purple">
-                        <div class="h-full p-5 border rounded-md shadow-sm border-indigo">
+                    <div class="duration-300 transform hover:-translate-y-2">
+                        <div class="h-full p-5 border rounded-md shadow-sm border-indigo bg-purple">
                             <h6 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader4}</h6>
                             <p class="text-sm text-gray-900">
                                 {project.subDescription4}
