@@ -1,7 +1,7 @@
 {    
 
     "portfolio-2022" : {
-        "name": "Portfolio 2022",
+        "name": "This website",
         "description": "This website was made using a Preact +  TypeScript starter template. It utilizes Tailwind CSS and Daisy UI for styled components.",
         "liveUrl": "",
         "gitUrl": "https://github.com/Jiansorge/portfolio-2022",
