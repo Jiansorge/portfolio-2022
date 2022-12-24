@@ -24,8 +24,9 @@ Icon from https://www.reshot.com/
 ## TODO
 
 - [ ] Add hover affects and transitions
-- [ ] button classes
-- [ ] full height nav
+- [ ] add button component
+- [ ] new dark color for active nav
+- [ ] xs screen sizing
 - [ ] borders
 - [ ] remove unused classes
 - [ ] Add background textures
