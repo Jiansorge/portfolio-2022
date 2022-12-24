@@ -19,7 +19,11 @@ module.exports = {
       lightPurple:'#704182',
       mainGrey: '#ececec',
       darkGrey: '#afafaf',
-    }
+    },
+    screens: {
+      xs: '380px',
+
+    },
   },
   plugins: [require("daisyui")],
 }
