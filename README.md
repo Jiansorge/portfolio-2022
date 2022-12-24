@@ -30,7 +30,7 @@ Icon from https://www.reshot.com/
 - [ ] remove unused classes
 - [ ] Add background textures
 - [ ] Responsive design
-- [ ] Logo
+- [ ] Deploy via Netlify to get SSL
 - [ ] Add random effects
 - [ ] Textures
 - [ ] SEO
