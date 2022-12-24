@@ -31,6 +31,7 @@ Icon from https://www.reshot.com/
 - [ ] Add background textures
 - [ ] Responsive design
 - [ ] Logo
+- [ ] Add random effects
 - [ ] Textures
 - [ ] SEO
 - [ ] CMS
