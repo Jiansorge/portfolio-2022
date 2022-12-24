@@ -2606,6 +2606,11 @@ html {
   background-color: rgb(92 113 222 / var(--tw-bg-opacity));
 }
 
+.bg-lightPurple {
+  --tw-bg-opacity: 1;
+  background-color: rgb(112 65 130 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-75 {
   --tw-bg-opacity: 0.75;
 }
