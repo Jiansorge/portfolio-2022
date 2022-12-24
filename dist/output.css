@@ -2582,7 +2582,7 @@ html {
 
 .border-teal {
   --tw-border-opacity: 1;
-  border-color: rgb(100 205 226 / var(--tw-border-opacity));
+  border-color: rgb(100 205 225 / var(--tw-border-opacity));
 }
 
 .border-indigo {
@@ -2595,22 +2595,36 @@ html {
   background-color: rgb(33 32 53 / var(--tw-bg-opacity));
 }
 
-.bg-\[rgb\(92\2c 113\2c 222\)\] {
+.bg-blue {
   --tw-bg-opacity: 1;
   background-color: rgb(92 113 222 / var(--tw-bg-opacity));
-}
-
-.bg-base-200 {
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--b2, var(--b1)) / var(--tw-bg-opacity));
 }
 
 .bg-opacity-75 {
   --tw-bg-opacity: 0.75;
 }
 
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
 .bg-index-hero {
   background-image: url('/assets/index-hero.gif');
+}
+
+.from-purple {
+  --tw-gradient-from: #212035;
+  --tw-gradient-to: rgb(33 32 53 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.via-lightPurple {
+  --tw-gradient-to: rgb(112 65 130 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), #704182, var(--tw-gradient-to);
+}
+
+.to-purple {
+  --tw-gradient-to: #212035;
 }
 
 .object-contain {
@@ -2776,7 +2790,7 @@ html {
 
 .text-teal {
   --tw-text-opacity: 1;
-  color: rgb(100 205 226 / var(--tw-text-opacity));
+  color: rgb(100 205 225 / var(--tw-text-opacity));
 }
 
 .text-pink {
@@ -2869,7 +2883,7 @@ html {
 
 .hover\:bg-teal:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(100 205 226 / var(--tw-bg-opacity));
+  background-color: rgb(100 205 225 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-purple:hover {
@@ -2884,7 +2898,7 @@ html {
 
 .hover\:text-teal:hover {
   --tw-text-opacity: 1;
-  color: rgb(100 205 226 / var(--tw-text-opacity));
+  color: rgb(100 205 225 / var(--tw-text-opacity));
 }
 
 .hover\:text-purple:hover {
