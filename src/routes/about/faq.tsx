@@ -65,8 +65,8 @@ const Item = ({ title, children }: Props) => {
              </Item>
             <Item title="What technologies do you prefer to work with?">
               <>
-                For static sites, I like to use <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer">Eleventy</a> or <a href="https://github.com/preactjs-templates/typescript">Preact</a> deployed with <a href="https://surge.sh/">Surge</a>.
-                For full-stack projects, I like to use the <a href="https://github.com/topics/t3-stack" target="_blank" rel="noopener noreferrer">T3 stack</a> with React + TypeScript.
+                For static sites, I like to use <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer" class="">Eleventy</a> or <a href="https://github.com/preactjs-templates/typescript" target="_blank" rel="noopener noreferrer">Preact</a> deployed with <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify</a> or <a href="https://surge.sh/" target="_blank" rel="noopener noreferrer">Surge</a>.
+                For full-stack projects, I generally like to use the <a href="https://github.com/topics/t3-stack" target="_blank" rel="noopener noreferrer">T3 stack</a> with React + TypeScript.
               </>
             </Item>
             <Item title="Why did you switch careers?">
