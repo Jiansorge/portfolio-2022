@@ -46,3 +46,4 @@ Icon from https://www.reshot.com/
 - [ ] social links
 - [ ] icons for all sizes
 - [ ] highlight svgs
+- [ ] FAQ link styling
