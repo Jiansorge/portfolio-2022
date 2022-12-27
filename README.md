@@ -47,3 +47,4 @@ Icon from https://www.reshot.com/
 - [ ] icons for all sizes
 - [ ] highlight svgs
 - [ ] FAQ link styling
+- [ ] 404 page
