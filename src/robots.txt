@@ -1,8 +1,10 @@
 User-agent: *
 Disallow: /src/data/
 Disallow: /src/assets/
-Sitemap: https://jiansorge.com/sitemap.xml
+
 User-agent: facebot
 Disallow:/
 User-agent: facebookbot
 Disallow:/
+
+Sitemap: https://jiansorge.com/sitemap.xml
