@@ -33,22 +33,6 @@
         "subHeader4": "Lighthouse Scores Over 97",
         "subDescription4": "Google Lighthouse measured the following scores across the app:\n 98 Performance,\n 97 Accessibility,\n 100 Best Practices,\n 100 SEO"
     },
-    "archived-portfolio" : {
-        "name": "Archived Portfolio",
-        "description": "An old portfolio built from a Gatsby and Contentful template.",
-        "liveUrl": "https://www.nsorge.com/",
-        "gitUrl": "https://bitbucket.org/jiansorge/personal-website-1/src/master/",
-        "imgUrl": "../assets/project-images/archived-portfolio.png",
-        "imgAlt": "screenshot of archived porfolio projects page",
-        "subHeader1": "Gatsby PWA",
-        "subDescription1": "I chose to try out Gatsby for its built-in templates, content management system configuration and plugin ecosystem.",
-        "subHeader2": "Responsive Design",
-        "subDescription2": "Mobile friendly. Also has perfect Lighthouse scores in accessbility and SEO categories.",
-        "subHeader3": "Contentful CMS",
-        "subDescription3": "Provided discoverable and reusable content, which was easy to manage.",
-        "subHeader4": "GraphQL",
-        "subDescription4": "I got exposure to using GraphQL with a CMS to fetch rendered data."
-    },
     "sonar-strike" : {
         "name": "Sonar Strike",
         "description": "Prototype Underwater Shooter. High-speed  space shooter game made in entirely in React and JavaScript. Final project for JSCRIPT-300, React front-end development course.",

@@ -1,0 +1,18 @@
+{    
+    "advertise-with-us" : {
+        "name": "Advertise With Us",
+        "description": "A vanilla html website that provides a free service to find media vendors, programs or categories.",
+        "liveUrl": "https://www.advertise-with-us.com/",
+        "gitUrl": "",
+        "imgUrl": "../assets/project-images/awu.png",
+        "imgAlt": "screenshot of product info from Advertise With Us",
+        "subHeader1": "Server Side Rendered Vanilla HTML",
+        "subDescription1": "HTML+JS is delivered via SSR .jsp servlet technology to securely withhold API key.",
+        "subHeader2": "Reponsive Design",
+        "subDescription2": "Tailwind CSS was useful in generating predefined media queiries for collapsible components.",
+        "subHeader3": "Enhanced SEO",
+        "subDescription3": "JSON-LD, sitemaps and other features provided for enhanced SEO.",
+        "subHeader4": "Lighthouse Scores Over 97",
+        "subDescription4": "Google Lighthouse measured the following scores across the app:\n 98 Performance,\n 97 Accessibility,\n 100 Best Practices,\n 100 SEO"
+    }
+}
