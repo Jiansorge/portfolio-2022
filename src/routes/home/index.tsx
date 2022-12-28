@@ -1,5 +1,5 @@
 import { h } from 'preact';
-import { useHead } from 'hoofd/preact';
+import { useHead, useLink } from 'hoofd/preact';
 // import style from './style.css';
 
 const Home = () => {
@@ -7,13 +7,8 @@ const Home = () => {
 		title: 'Jian\'s Portfolio',
 		metas: [{ name: 'author', content: 'Jian Sorge'},
 				{ name: 'description', content: 'Homepage for Jian Sorge\'s web development portfolio'},
-				{ name: 'author', content: 'Jian Sorge'}]
-				// <!-- Standard favicon -->
-				// <link rel="icon" type="image/x-icon" href="https://example.com/favicon.ico">
-				// <!-- Recommended favicon format -->
-				// <link rel="icon" type="image/png" href="https://example.com/favicon.png"></link>
-				// <!-- Apple Touch Icon (at least 200x200px) -->
-				// <link rel="apple-touch-icon" href="/custom-icon.png">
+				{ name: 'author', content: 'Jian Sorge'}
+			]
 
 				// <!-- Status Bar Style (see Supported Meta Tags below for available values) -->
 				// <!-- Has no effect unless you have the previous meta tag -->
@@ -40,7 +35,10 @@ const Home = () => {
 				// <meta name="twitter:title" content="Content Title">
 				// <meta name="twitter:description" content="Content description less than 200 characters">
 				// <meta name="twitter:image" content="https://example.com/image.jpg"></meta>
- 			});
+	});
+	// useLink({rel: 'icon', type: 'image/x-icon', href: '/assets/icons/favicon.ico'});
+	// useLink({rel: 'icon', type:'image/png', href:'/assets/icons/icon.svg'});
+
 	return(
 		<div class="text-purple bg-purple">
 
@@ -60,8 +58,8 @@ const Home = () => {
 				</span>
 			</div>
 
-			<section>
-				{/* <div className="carousel w-full">
+			{/* <section>
+				<div className="carousel w-full">
 					<div id="slide1" className="carousel-item relative w-full">
 						<img src="https://placeimg.com/800/200/arch" className="w-full" />
 						<div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -90,8 +88,8 @@ const Home = () => {
 							<a href="#slide1" className="btn btn-circle">❯</a>
 						</div>
 					</div>
-				</div> */}
-			</section>
+				</div>
+			</section> */}
 
 		</div>
 	)
