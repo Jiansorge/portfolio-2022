@@ -5,7 +5,7 @@ import { useHead, useLink } from 'hoofd/preact';
 const Home = () => {
 	useHead({
 		title: 'Jian\'s Portfolio',
-		metas: [{ name: 'author', content: 'Jian Sorge'},
+		metas: [
 				{ name: 'description', content: 'Homepage for Jian Sorge\'s web development portfolio'},
 				{ name: 'author', content: 'Jian Sorge'}
 			]
@@ -37,7 +37,7 @@ const Home = () => {
 				// <meta name="twitter:image" content="https://example.com/image.jpg"></meta>
 	});
 	// useLink({rel: 'icon', type: 'image/x-icon', href: '/assets/icons/favicon.ico'});
-	// useLink({rel: 'icon', type:'image/png', href:'/assets/icons/icon.svg'});
+	useLink({rel: 'icon', type:'image/png', href:'/assets/icons/icon.svg'});
 
 	return(
 		<div class="text-purple bg-purple">
