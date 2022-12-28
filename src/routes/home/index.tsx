@@ -9,14 +9,8 @@ const Home = () => {
 				{ name: 'description', content: 'Homepage for Jian Sorge\'s web development portfolio'},
 				{ name: 'author', content: 'Jian Sorge'}
 			]
-
-				// <!-- Status Bar Style (see Supported Meta Tags below for available values) -->
-				// <!-- Has no effect unless you have the previous meta tag -->
-				// <meta name="apple-mobile-web-app-status-bar-style" content="black"></meta>
 				// <!-- Microsoft Tiles -->
 				// <meta name="msapplication-config" content="browserconfig.xml" />
-				// <link rel="canonical" href="http://example.com/2017/09/a-new-article-to-read.html">
-
 				
 				// <meta property="og:type" content="website">
 				// <meta property="og:url" content="https://example.com/page.html">
@@ -36,8 +30,8 @@ const Home = () => {
 				// <meta name="twitter:description" content="Content description less than 200 characters">
 				// <meta name="twitter:image" content="https://example.com/image.jpg"></meta>
 	});
-	// useLink({rel: 'icon', type: 'image/x-icon', href: '/assets/icons/favicon.ico'});
-	useLink({rel: 'icon', type:'image/png', href:'/assets/icons/icon.svg'});
+
+	useLink({rel: 'canonical', href: 'https://jiansorge.com/'})
 
 	return(
 		<div class="text-purple bg-purple">
