@@ -13,6 +13,19 @@
 		<link rel="apple-touch-icon" href="<%= htmlWebpackPlugin.files.publicPath %>assets/icons/apple-touch-icon.png">
 		<!-- <meta name="msapplication-config" content="browserconfig.xml" /> -->
 		<html dir="ltr"></html>
+
+
+		<meta property="og:type" content="website">
+		<meta property="og:image" content="<%= htmlWebpackPlugin.files.publicPath %>assets/icons/icon.svg">
+		<meta property="og:site_name" content="Jian Sorge's Portfolio">
+		<meta property="og:locale" content="en_US">
+		<meta property="og:image:width" content="1200">
+		<meta property="og:image:height" content="630">
+
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@code_with_jian">
+		<meta name="twitter:creator" content="@code_with_jian">
+		<meta name="twitter:image" content="<%= htmlWebpackPlugin.files.publicPath %>assets/icons/icon.svg">
 		<% preact.headEnd %>
 	</head>
 	<body>
