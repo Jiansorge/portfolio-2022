@@ -9,8 +9,6 @@ const Home = () => {
 				{ name: 'description', content: 'Homepage for Jian Sorge\'s web development portfolio'},
 				{ name: 'author', content: 'Jian Sorge'}
 			]
-				// <!-- Microsoft Tiles -->
-				// <meta name="msapplication-config" content="browserconfig.xml" />
 				
 				// <meta property="og:type" content="website">
 				// <meta property="og:url" content="https://example.com/page.html">
