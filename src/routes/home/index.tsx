@@ -20,14 +20,6 @@ const Home = () => {
 				{ name: 'twitter:description', content: description},
 
 			]
-				
-				// <meta property="og:url" content="https://example.com/page.html">
-				// <meta property="og:title" content="Content Title">
-				// <meta property="og:description" content="Description Here">
-
-				// <meta name="twitter:url" content="https://example.com/page.html">
-				// <meta name="twitter:title" content="Content Title">
-				// <meta name="twitter:description" content="Content description less than 200 characters">
 	});
 
 	useLink({rel: 'canonical', href: 'https://jiansorge.com/'})
