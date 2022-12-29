@@ -2,11 +2,8 @@ import { h } from 'preact';
 import { useHead } from 'hoofd/preact';
 
 const NotFoundPage = () => {
-
-	const url = 'https://www.jiansorge.com/404';
 	const title = 'Jian\'s Portfolio-Not Found';
 	const description = 'Page Not Found - Jian Sorge\'s web development portfolio';
-
 	useHead({
 		title: title,
 		metas: [
