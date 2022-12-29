@@ -1,5 +1,5 @@
 import { h } from 'preact';
-import { useHead, useLink } from 'hoofd/preact';
+import { useHead } from 'hoofd/preact';
 
 const NotFoundPage = () => {
 
@@ -11,13 +11,7 @@ const NotFoundPage = () => {
 		title: title,
 		metas: [
 				{ name: 'description', content: description},
-				{ name: 'og:url', content: url},
-				{ name: 'og:title', content: title},
-				{ name: 'og:description', content: description},
-
-				{ name: 'twitter:url', content: url},
-				{ name: 'twitter:title', content: title},
-				{ name: 'twitter:description', content: description},
+                { name: 'robots', content: 'noindex'}
 			]
 	});
 
