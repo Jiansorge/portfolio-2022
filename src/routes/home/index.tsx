@@ -4,7 +4,7 @@ import { useHead, useLink } from 'hoofd/preact';
 
 const Home = () => {
 	const url = 'https://www.jiansorge.com';
-	const title = 'Jian\'s Portfolio - Home Page';
+	const title = 'Jian\'s Portfolio-Home Page';
 	const description = 'Homepage for Jian Sorge\'s web development portfolio';
 
 	useHead({
@@ -20,7 +20,7 @@ const Home = () => {
 				{ name: 'twitter:description', content: description},
 			]
 	});
-	useLink({rel: 'canonical', href: 'https://jiansorge.com/'})
+	useLink({rel: 'canonical', href: url});
 	return(
 		<div class="text-purple bg-purple">
 

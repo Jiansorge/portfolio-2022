@@ -2,6 +2,7 @@ import { h } from 'preact';
 import MiniTile from './miniTile';
 import ProjectTile from './projectTile';
 import projects from '../../data/projects.json';
+import { useHead, useLink } from 'hoofd/preact';
 
 // List of Projects
 // Portfolio 2022
@@ -33,6 +34,25 @@ export interface ProjectType {
 
 const Projects = () => {
     const Projects:ProjectList = projects;
+
+    const url = 'https://www.jiansorge.com/projects';
+	const title = 'Jian\'s Portfolio-All Projects Page';
+	const description = 'Projects page for Jian Sorge\'s web development portfolio';
+
+	useHead({
+		title: title,
+		metas: [
+				{ name: 'description', content: description},
+				{ name: 'og:url', content: url},
+				{ name: 'og:title', content: title},
+				{ name: 'og:description', content: description},
+
+				{ name: 'twitter:url', content: url},
+				{ name: 'twitter:title', content: title},
+				{ name: 'twitter:description', content: description},
+			]
+	});
+	useLink({rel: 'canonical', href: url});
 	return (
 		<div class="text-yellow bg-gradient-to-b from-purple via-lightPurple to-purple">
             <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">

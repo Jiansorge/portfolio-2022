@@ -1,15 +1,34 @@
 import { h } from 'preact';
-import { useEffect, useState } from 'preact/hooks';
+// import { useEffect, useState } from 'preact/hooks';
 import { Faq } from './faq';
+import { useHead, useLink } from 'hoofd/preact';
 
 const About = () => {
-    const [time, setTime] = useState<number>(Date.now());
-    const [count, setCount] = useState<number>(0);
+    // const [time, setTime] = useState<number>(Date.now());
+    // const [count, setCount] = useState<number>(0);
 
-    useEffect(() => {
-		const timer = setInterval(() => setTime(Date.now()), 1000);
-		return () => clearInterval(timer);
-	}, []);
+    // useEffect(() => {
+	// 	const timer = setInterval(() => setTime(Date.now()), 1000);
+	// 	return () => clearInterval(timer);
+	// }, []);
+	const url = 'https://www.jiansorge.com/about';
+	const title = 'Jian\'s Portfolio-About Page';
+	const description = 'About page for Jian Sorge\'s web development portfolio';
+
+	useHead({
+		title: title,
+		metas: [
+				{ name: 'description', content: description},
+				{ name: 'og:url', content: url},
+				{ name: 'og:title', content: title},
+				{ name: 'og:description', content: description},
+
+				{ name: 'twitter:url', content: url},
+				{ name: 'twitter:title', content: title},
+				{ name: 'twitter:description', content: description},
+			]
+	});
+	useLink({rel: 'canonical', href: url});
 
     return (
 		<div class="text-yellow bg-gradient-to-b from-purple via-lightPurple to-purple">
