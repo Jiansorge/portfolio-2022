@@ -34,7 +34,7 @@ const NotFoundPage = () => {
             <div className="mx-auto lg:max-w-2xl">
                 <div className="relative w-full">
                     <img
-                        className="mb-8 object-contain w-full h-56 rounded sm:h-64 md:h-80 lg:h-96"
+                        className="mb-8 object-contain w-full h-56 rounded sm:h-64 md:h-80 lg:h-96 motion-safe:animate-spin"
                         src="../assets/404.png"
                         alt=""
                     />
