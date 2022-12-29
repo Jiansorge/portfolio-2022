@@ -34,6 +34,7 @@ Icon from https://www.reshot.com/
 - [ ] lazy load images
 - [ ] add button component
 - [ ] remove unused classes
+- [ ] browserconfig
 - [ ] Update readme
 - [ ] Front-end checklist
 
