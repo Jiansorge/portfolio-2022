@@ -23,7 +23,6 @@ Icon from https://www.reshot.com/
 
 ## TODO
 
-- [ ] 404 page
 - [ ] Responsive design
 - [ ] SEO
 - [ ] JSON-LD
