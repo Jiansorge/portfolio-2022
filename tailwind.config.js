@@ -6,6 +6,9 @@ module.exports = {
       backgroundImage: {
         'index-hero': "url('/assets/index-hero.gif')",
         // 'footer-texture': "url('/assets/logo.png')",
+      },
+      animation: {
+        spin: 'spin 100s linear infinite',
       }
     },
     colors: {
