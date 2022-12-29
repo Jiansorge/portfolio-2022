@@ -23,13 +23,13 @@ Icon from https://www.reshot.com/
 
 ## TODO
 
+- [ ] responsive images
 - [ ] Responsive design
 - [ ] SEO
 - [ ] JSON-LD
 - [ ] Test sitemap
 - [ ] Test robots.txt
 - [ ] Deploy via Netlify to get SSL
-- [ ] responsive images
 - [ ] test social links
 - [ ] lazy load images
 - [ ] add button component
