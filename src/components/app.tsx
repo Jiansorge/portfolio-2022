@@ -19,7 +19,7 @@ const App = () => (
             <Route path="/projects/" component={Projects} />
             <Route path="/projects/:name" component={Project} />
             <Route path="/about/" component={About} />
-            <NotFoundPage default>404 - Not Found</NotFoundPage>
+            <div default><NotFoundPage /></div>
         </Router>
         <Footer />
     </div>

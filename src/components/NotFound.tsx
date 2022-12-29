@@ -1,11 +1,7 @@
 import { h } from 'preact';
 import { useHead } from 'hoofd/preact';
 
-interface Props {
-    default: boolean
-}
-
-const NotFoundPage = (props: Props) => {
+const NotFoundPage = () => {
 	const title = 'Jian\'s Portfolio-Not Found';
 	const description = 'Page Not Found - Jian Sorge\'s web development portfolio';
 	useHead({
