@@ -7,4 +7,4 @@ Disallow:/
 User-agent: facebookbot
 Disallow:/
 
-Sitemap: https://jiansorge.com/sitemap.xml
+Sitemap: https://jiansorge.com/public/sitemap.xml
