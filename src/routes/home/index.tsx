@@ -18,12 +18,9 @@ const Home = () => {
 				{ name: 'twitter:url', content: url},
 				{ name: 'twitter:title', content: title},
 				{ name: 'twitter:description', content: description},
-
 			]
 	});
-
 	useLink({rel: 'canonical', href: 'https://jiansorge.com/'})
-
 	return(
 		<div class="text-purple bg-purple">
 
