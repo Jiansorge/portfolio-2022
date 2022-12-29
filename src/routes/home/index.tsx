@@ -3,11 +3,22 @@ import { useHead, useLink } from 'hoofd/preact';
 // import style from './style.css';
 
 const Home = () => {
+	const url = 'https://www.jiansorge.com';
+	const title = 'Jian\'s Portfolio - Home Page';
+	const description = 'Homepage for Jian Sorge\'s web development portfolio';
+
 	useHead({
-		title: 'Jian\'s Portfolio',
+		title: title,
 		metas: [
-				{ name: 'description', content: 'Homepage for Jian Sorge\'s web development portfolio'},
-				{ name: 'author', content: 'Jian Sorge'}
+				{ name: 'description', content: description},
+				{ name: 'og:url', content: url},
+				{ name: 'og:title', content: title},
+				{ name: 'og:description', content: description},
+
+				{ name: 'twitter:url', content: url},
+				{ name: 'twitter:title', content: title},
+				{ name: 'twitter:description', content: description},
+
 			]
 				
 				// <meta property="og:url" content="https://example.com/page.html">
