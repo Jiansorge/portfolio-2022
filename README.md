@@ -23,28 +23,29 @@ Icon from https://www.reshot.com/
 
 ## TODO
 
-- [ ] responsive images
-- [ ] Responsive design
-- [ ] SEO
-- [ ] JSON-LD
-- [ ] Test sitemap
-- [ ] Test robots.txt
-- [ ] Deploy via Netlify to get SSL
-- [ ] test social links
-- [ ] lazy load images
-- [ ] add button component
-- [ ] remove unused classes
-- [ ] browserconfig
-- [ ] Update readme
-- [ ] Front-end checklist
+- responsive images
+- Responsive design
+- SEO
+- JSON-LD
+- Test sitemap
+- Test robots.txt
+- Deploy via Netlify to get SSL
+- overscroll
+- test social links
+- lazy load images
+- add button component
+- remove unused classes
+- browserconfig
+- Update readme
+- Front-end checklist
 
-- [ ] Add background textures
-- [ ] Add hover affects and transitions
-- [ ] CMS
-- [ ] new dark color for active nav
-- [ ] icons for all sizes
-- [ ] highlight footer svgs on hover
-- [ ] FAQ link styling
-- [ ] Optional Sound
-- [ ] borders
-- [ ] Add random effects
+- Add background textures
+- Add hover affects and transitions
+- CMS
+- new dark color for active nav
+- icons for all sizes
+- highlight footer svgs on hover
+- FAQ link styling
+- Optional Sound
+- borders
+- Add random effects
