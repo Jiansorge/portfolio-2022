@@ -18,7 +18,7 @@ export interface ProjectType {
     description: string,
     liveUrl?: string,
     gitUrl?: string,
-    imgUrl?: string,
+    imgUrl: string,
     imgAlt?: string,
     subHeader1: string,
     subDescription1: string,
@@ -71,7 +71,7 @@ const Projects = () => {
                     { Object.entries(Projects).map((project, index) => {
                         if (index < 4){
                             return (
-                                <ProjectTile key={index} project={project[1]} href={`projects/${project[0]}-min`} />
+                                <ProjectTile key={index} project={project[1]} href={`projects/${project[0]}`} />
                             )}
                         }
                     )}
