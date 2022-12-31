@@ -11,15 +11,15 @@ const Footer = () => {
 				<span class="hidden sm:inline-block">|</span>
 				<div className="grid grid-flow-col gap-4">
 					<a href="https://github.com/Jiansorge" target="_blank" rel="noopener noreferrer">
-						<img src="../../assets/icons/github.svg" alt="Jian's Github" />
+						<img src="../../assets/icons/github.svg" alt="Jian's Github" height="24" width="24" />
 					</a> 
 
 					<a href="https://www.linkedin.com/in/jiansorge/" target="_blank" rel="noopener noreferrer">
-						<img src="../../assets/icons/linkedin.svg" alt="Jian's LinkedIn" />
+						<img src="../../assets/icons/linkedin.svg" alt="Jian's LinkedIn" height="24" width="24" />
 					</a>
 
 					<a href="https://twitter.com/code_with_jian" target="_blank" rel="noopener noreferrer">
-						<img src="../../assets/icons/twitter.svg" alt="Jian's Twitter" />
+						<img src="../../assets/icons/twitter.svg" alt="Jian's Twitter" height="24" width="24" />
 					</a> 
 				</div>
 		</footer>
