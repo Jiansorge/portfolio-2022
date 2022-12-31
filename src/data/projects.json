@@ -14,7 +14,7 @@
         "subHeader3": "JSON Data Model",
         "subDescription3": "All projects data is stored in a single JSON of key/values.",
         "subHeader4": "Lighthouse Scores Over 92",
-        "subDescription4": "Google Lighthouse measured the following scores across the app:\n 95 Performance,\n 100 Accessibility,\n 92 Best Practices,\n 93 SEO"
+        "subDescription4": "Google Lighthouse measured the following scores across the app:\n 90 Performance,\n 100 Accessibility,\n 85 Best Practices,\n 100 SEO"
     },
 
     "advertise-with-us" : {
