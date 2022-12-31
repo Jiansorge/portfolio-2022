@@ -71,7 +71,7 @@ const Projects = () => {
                     { Object.entries(Projects).map((project, index) => {
                         if (index < 4){
                             return (
-                                <ProjectTile key={index} project={project[1]} href={`projects/${project[0]}`} />
+                                <ProjectTile key={index} project={project[1]} href={`projects/${project[0]}-min`} />
                             )}
                         }
                     )}
