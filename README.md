@@ -23,8 +23,6 @@ Icon from https://www.reshot.com/
 
 ## TODO
 
-- responsive images
-- Responsive design
 - SEO
 - JSON-LD
 - Test sitemap
@@ -49,3 +47,5 @@ Icon from https://www.reshot.com/
 - Optional Sound
 - borders
 - Add random effects
+- responsive images
+- Responsive design
