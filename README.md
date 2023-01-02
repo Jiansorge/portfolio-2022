@@ -23,7 +23,6 @@ Icon from https://www.reshot.com/
 
 ## TODO
 
-- Deploy via Netlify to get SSL
 - Prerendering
 - SEO
 - JSON-LD
