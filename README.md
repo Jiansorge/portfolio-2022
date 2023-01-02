@@ -23,11 +23,12 @@ Icon from https://www.reshot.com/
 
 ## TODO
 
+- Deploy via Netlify to get SSL
+- Prerendering
 - SEO
 - JSON-LD
 - Test sitemap
 - Test robots.txt
-- Deploy via Netlify to get SSL
 - overscroll
 - test social links
 - lazy load images
