@@ -1,4 +1,4 @@
-import '../src/static/output.css'; 
+import '../dist/output.css'; 
 // import './style/index.css'; 
 
 import App from './components/app';
