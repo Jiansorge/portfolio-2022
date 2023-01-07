@@ -15,10 +15,10 @@ const App = () => (
 	<div id="app" class="h-full">
         <Header />
         <Router>
-            <Route path="/projects/" component={Projects} />
+            <Route exact path="/projects/" component={Projects} />
             <Route path="/projects/:name" component={Project} />
             <Route path="/about/" component={About} />
-            <Route exactPath="/" component={Home} />
+            <Route exact path="/" component={Home} />
             <div default><NotFoundPage /></div>
         </Router>
         <Footer />
