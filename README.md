@@ -29,6 +29,7 @@ Icon from https://www.reshot.com/
 - Test sitemap
 - Test robots.txt
 - overscroll
+- add multiple project images
 - test social links
 - lazy load images
 - add button component
