@@ -1,4 +1,5 @@
 [[redirects]]
-from = "/projects/*"
+from = "/projects*"
 to = "/"
+status = 200
 force = false
