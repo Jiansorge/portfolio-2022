@@ -12,8 +12,8 @@
         "subDescription2": "I used this framework for ease of used. DaisyUI's and Kitwind.io's libraries made it easy to generate great looking and responsive components.",
         "subHeader3": "JSON Data Model",
         "subDescription3": "All projects data is stored in a single JSON of key/values.",
-        "subHeader4": "Lighthouse Scores Over 92",
-        "subDescription4": "Google Lighthouse measured the following scores across the app:\n 90 Performance,\n 100 Accessibility,\n 85 Best Practices,\n 100 SEO"
+        "subHeader4": "High Lighthouse Scores",
+        "subDescription4": "Google Lighthouse measured the following scores across the app:\n 85 Performance,\n 100 Accessibility,\n 100 Best Practices,\n 100 SEO"
     },
     "advertise-with-us" : {
         "name": "Advertise With Us",
