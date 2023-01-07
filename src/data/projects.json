@@ -1,5 +1,4 @@
 {    
-
     "portfolio-2022" : {
         "name": "This website",
         "description": "This website was made using a Preact +  TypeScript starter template. It utilizes Tailwind CSS and Daisy UI for styled components.",
@@ -16,7 +15,6 @@
         "subHeader4": "Lighthouse Scores Over 92",
         "subDescription4": "Google Lighthouse measured the following scores across the app:\n 90 Performance,\n 100 Accessibility,\n 85 Best Practices,\n 100 SEO"
     },
-
     "advertise-with-us" : {
         "name": "Advertise With Us",
         "description": "A vanilla html website that provides a free service to find media vendors, programs or categories.",
