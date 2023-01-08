@@ -5,28 +5,28 @@ import { useHead, useLink } from 'hoofd/preact';
 
 // Note: `name` comes from the URL, courtesy of our router
 const Project = () => {
-    const projectPath:string = window.location.pathname.split('/')[2];
+    const projectPath:string = window.location.pathname.split('/')[2] || '';
     const projectList:ProjectList = projects;
-    const project:ProjectType = projectList[projectPath];
+    const project:ProjectType = projectList[projectPath] || '';
 
     const url = `https://www.jiansorge.com/projects/${projectPath}`;
-	const title = `Jian's Portfolio-${project.name}`;
-	const description = `${project.name} project page for Jian Sorge's web development portfolio`;
+	const title = `Jian's Portfolio-${project.name || ''}`;
+	const description = `${project.name || ''} project page for Jian Sorge's web development portfolio`;
 
 	useHead({
 		title: title,
 		metas: [
-				{ name: 'description', content: description},
-				{ name: 'og:url', content: url},
-				{ name: 'og:title', content: title},
-				{ name: 'og:description', content: description},
+				{ name: 'description', content: description || ''},
+				{ name: 'og:url', content: url || ''},
+				{ name: 'og:title', content: title || ''},
+				{ name: 'og:description', content: description || ''},
 
-				{ name: 'twitter:url', content: url},
-				{ name: 'twitter:title', content: title},
-				{ name: 'twitter:description', content: description},
+				{ name: 'twitter:url', content: url || ''},
+				{ name: 'twitter:title', content: title || ''},
+				{ name: 'twitter:description', content: description || ''},
 			]
 	});
-    useLink({rel: 'canonical', href: url});
+    useLink({rel: 'canonical', href: url || ''});
     return (
 		<div class="text-yellow bg-gradient-to-b from-purple via-lightPurple to-purple">
             <div class="relative flex flex-col-reverse pt-16 pb-4 lg:py-0 lg:flex-col">
@@ -36,14 +36,14 @@ const Project = () => {
                             {project.name || ''}
                         </h2>
                         <p class="pt-4 pb-6 text-base text-gray-700 md:text-lg md:text-center">
-                            {project.description}
+                            {project.description || ''}
                         </p>
                         {
-                            project.liveUrl
+                            project.liveUrl || ''
                             && <div class="text-center">
                                 <button class="px-6 py-2 transition-colors duration-200  shadow-md border border-teal text-pink bg-purple hover:bg-teal hover:text-purple rounded-lg">
                                 <a
-                                href={project.liveUrl}
+                                href={project.liveUrl || ''}
                                 class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                                 >                        
 
@@ -66,7 +66,7 @@ const Project = () => {
                             && <div class="text-center">
                                 <button class="px-6 py-2 transition-colors duration-200 shadow-md border border-teal bg-purple text-pink hover:bg-teal hover:text-purple rounded-lg">
                                     <a
-                                    href={project.gitUrl}
+                                    href={project.gitUrl || ''}
                                     class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded  md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                                     >
 
@@ -87,8 +87,8 @@ const Project = () => {
                 <div class="inset-y-0 top-0 right-0 w-full max-w-xl px-4 mx-auto mb-6 md:px-0 lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">
                     <img
                     class="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
-                    src={project.imgUrl}
-                    alt={project.imgAlt}
+                    src={project.imgUrl || ''}
+                    alt={project.imgAlt || ''}
                     />
                 </div>
             </div>
@@ -98,33 +98,33 @@ const Project = () => {
                 <div class="grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2">
                     <div class="duration-300 transform hover:-translate-y-2">
                         <div class="h-full p-5 border rounded-md shadow-sm border-indigo bg-purple">
-                            <h3 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader1}</h3>
+                            <h3 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader1 || ''}</h3>
                             <p class="text-sm text-gray-900">
-                            {project.subDescription1}
+                            {project.subDescription1 || ''}
                             </p>
                         </div>
                     </div>
                     <div class="duration-300 transform hover:-translate-y-2">
                         <div class="h-full p-5 border rounded-md shadow-sm border-indigo bg-purple ">
-                            <h3 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader2}</h3>
+                            <h3 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader2 || ''}</h3>
                             <p class="text-sm text-gray-900">
-                                {project.subDescription2}
+                                {project.subDescription2 || ''}
                             </p>
                         </div>
                     </div>
                     <div class="duration-300 transform hover:-translate-y-2">
                         <div class="h-full p-5 border rounded-md shadow-sm border-indigo bg-purple">
-                            <h3 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader3}</h3>
+                            <h3 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader3 || ''}</h3>
                             <p class="text-sm text-gray-900">
-                                {project.subDescription3}
+                                {project.subDescription3 || ''}
                             </p>
                         </div>
                     </div>
                     <div class="duration-300 transform hover:-translate-y-2">
                         <div class="h-full p-5 border rounded-md shadow-sm border-indigo bg-purple">
-                            <h3 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader4}</h3>
+                            <h3 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader4 || ''}</h3>
                             <p class="text-sm text-gray-900">
-                                {project.subDescription4}
+                                {project.subDescription4 || ''}
                             </p>
                         </div>
                     </div>
