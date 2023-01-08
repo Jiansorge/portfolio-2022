@@ -10,7 +10,7 @@ interface Props {
 const MiniTile = ({ project, href }: Props) => {
     const thumbUrl =`${project.imgUrl.slice(0,-4)}-min.png`;
 	return (
-        <a href={href} aria-label="View Item" data-native>
+        <a href={href} aria-label="View Item">
             <img
                 className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
                 src={thumbUrl}
