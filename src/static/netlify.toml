@@ -1,1 +1,15 @@
 [[redirects]]
+from = "/projects/sonar-strike"
+to = "/projects/sonar-strike"
+status = 200
+force = false
+
+from = "/projects/portfolio-2022"
+to = "/projects/portfolio-2022"
+status = 200
+force = false
+
+from = "/projects/advertise-with-us"
+to = "/projects/advertise-with-us"
+status = 200
+force = false
