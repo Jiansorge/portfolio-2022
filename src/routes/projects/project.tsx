@@ -33,7 +33,7 @@ const Project = () => {
                 <div class="w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:py-20 lg:max-w-screen-xl">
                     <div class="mb-0 py-6 lg:max-w-lg lg:pr-8 xl:pr-6 space-y-4">
                         <h2 class="mb-5 font-sans text-3xl font-bold tracking-tight text-pink sm:text-4xl sm:leading-none md:text-center">
-                            {project.name}
+                            {project.name || ''}
                         </h2>
                         <p class="pt-4 pb-6 text-base text-gray-700 md:text-lg md:text-center">
                             {project.description}
