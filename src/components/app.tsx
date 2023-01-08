@@ -21,7 +21,7 @@ const App = () => (
             <Route exact path="/" component={Home} />
             <div default><NotFoundPage /></div>
         </Router>
-        <Footer />
+        <Footer /> 
     </div>
 );
 

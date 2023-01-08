@@ -1,4 +1,5 @@
 import { h } from 'preact';
+import { Link } from 'preact-router/match';
 import { ProjectType } from './projects'
 
 interface Props {
@@ -9,7 +10,7 @@ interface Props {
 const ProjectTile = ({ project, href }: Props) => {
     const thumbUrl =`${project.imgUrl.slice(0,-4)}-min.png`;
 	return (
-        <a href={href} aria-label="View Item">
+        <Link href={href} aria-label="View Item">
             <div className="text-teal relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl bg-purple">
                 <img
                 className="object-cover w-full h-56 md:h-64 xl:h-80 hover:hidden"
@@ -23,7 +24,7 @@ const ProjectTile = ({ project, href }: Props) => {
                     </p>
                 </div>
             </div>
-        </a>
+        </Link>
 	);
 };
 
