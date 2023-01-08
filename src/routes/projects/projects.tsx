@@ -53,6 +53,7 @@ const Projects = () => {
 			]
 	});
 	useLink({rel: 'canonical', href: url});
+
 	return (
 		<div class="text-yellow bg-gradient-to-b from-purple via-lightPurple to-purple">
             <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -71,7 +72,7 @@ const Projects = () => {
                     { Object.entries(Projects).map((project, index) => {
                         if (index < 4){
                             return (
-                                <ProjectTile key={index} project={project[1]} href={`projects/${project[0]}`} />
+                                <ProjectTile key={index} project={project[1]} href={`/projects/${project[0]}`} />
                             )}
                         }
                     )}
@@ -131,7 +132,7 @@ const Projects = () => {
                         { 
                             Object.entries(projects).slice(4).map((project)=>{
                                 return (
-                                    <MiniTile key={project[0]} project={project[1]} href={`projects/${project[0]}`} />
+                                    <MiniTile key={project[0]} project={project[1]} href={`/projects/${project[0]}`} />
                                 )
                             })
                         }
