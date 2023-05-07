@@ -49,11 +49,11 @@ const About = () => {
 						</h2>
 						<p class="text-base text-gray-700 md:text-lg">
 							I've worked as a front-end web developer 
-							for 2 years full-time professionally. I have extensive experience with JavaScript, HTML, CSS and React.
+							for 2.5 years full-time professionally. I have extensive experience with JavaScript, HTML, CSS and React.
 						</p>
 						<p class="text-base text-gray-700 md:text-lg pt-5">
 							After spending 7 years in the aerospace industry as 
-							a project engineer, I decided to change careers. 
+							a project engineer, I decided to change careers. I took a role as a software product manager, which gave me crucial insights on working on a team with developers.
 							I received two certificates in web development and successfully made the switch into programming full-time.
 						</p>
 					</div>

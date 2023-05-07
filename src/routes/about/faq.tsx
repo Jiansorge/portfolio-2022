@@ -59,7 +59,7 @@ const Item = ({ title, children }: Props) => {
             <Item title="Why do you enjoy front-end web development?">
               <>
                 I have fun creating user experiences that flow and are visually captivating. 
-                It's important for me to design things with responsiveness
+                I am inspired to design things with responsiveness
                 and accessibility in mind, to ensure all users have access.
               </>
              </Item>
