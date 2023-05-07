@@ -66,18 +66,23 @@ const Item = ({ title, children }: Props) => {
             <Item title="What technologies do you prefer to work with?">
               <>
                 For static sites, I like to use <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer" class="">Eleventy</a> or <a href="https://github.com/preactjs-templates/typescript" target="_blank" rel="noopener noreferrer">Preact</a> deployed with <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify</a> or <a href="https://surge.sh/" target="_blank" rel="noopener noreferrer">Surge</a>.
-                For full-stack projects, I generally like to use the <a href="https://github.com/topics/t3-stack" target="_blank" rel="noopener noreferrer">T3 stack</a> with React + TypeScript.
+                For full-stack projects, I have been experimenting with the <a href="https://github.com/topics/t3-stack" target="_blank" rel="noopener noreferrer">T3 stack</a> with React + TypeScript.
               </>
             </Item>
             <Item title="Why did you switch careers?">
               <>
-                I wanted a job role focused on solving technical challenges and creating things that make people happy.
-                I'm happy I switched!
+                I wanted a job role focused on solving technical challenges and creating things that make people happy or improve their lives.
+                I'm glad that I made the switch!
               </>
             </Item>
             <Item title="What else are you working on?">
               <>
-                I am slowly learning Vue and Nuxt.js. I am also interested in learning game development with <a href="https://unity.com/" target="_blank" rel="noopener noreferrer">Unity</a>.
+                I have more to learn with Next.js. I am slowly learning Vue and Nuxt.js. I am also interested in learning game development with <a href="https://unity.com/" target="_blank" rel="noopener noreferrer">Unity</a>.
+              </>
+            </Item>
+            <Item title="What else is on your programming learning list?">
+              <>
+                Eventually, I'd like to learn more about cyber security, cloud networking, Linux, Solid.js and Rust. 
               </>
             </Item>
           </div>
