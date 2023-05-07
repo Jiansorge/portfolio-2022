@@ -65,7 +65,7 @@ const Item = ({ title, children }: Props) => {
             </Item>
             <Item title="What is your programming work experience?">
               <ul>
-                <li>Front-end Software Developer, <a href="https://www.bionic-ads.com/" className="underline" target="_blank" rel="noopener noreferrer">Bionic Advertising Systems</a>, Remote, 2021 – Present</li>
+                <li className="font-bold pb-1">Front-end Software Developer, <a href="https://www.bionic-ads.com/" className="underline" target="_blank" rel="noopener noreferrer">Bionic Advertising Systems</a>, Remote, 2021 – Present</li>
                   <li className="pl-4">• Building legible, maintainable and performant code for a <a href="http://www.bionic-ads.com/agencies/demo/" className="underline" target="_blank" rel="noopener noreferrer">media planning web application</a>.</li>
                       <li className="pl-8">◦ Created and tested numerous components using self-managed GitHub tracking.</li>
                       <li className="pl-8">◦ Proactively filing new issues for enhancements, usability issues, and bugs.</li>
@@ -77,7 +77,7 @@ const Item = ({ title, children }: Props) => {
               </ul>
                 
               <ul className="pt-4">
-                <li>Front-end Software Developer, <a href="https://www.collineargroup.com/" className="underline" target="_blank" rel="noopener noreferrer">Collinear Group</a>, Remote, 2020 – 2021</li>
+                <li className="font-bold pb-1">Front-end Software Developer, <a href="https://www.collineargroup.com/" className="underline" target="_blank" rel="noopener noreferrer">Collinear Group</a>, Remote, 2020 – 2021</li>
                     <li className="pl-4">• Developed React functional components using agile methods for Fortune 100 company.</li>
                     <li className="pl-4">• Utilized Typescript and Mobx to perform CRUD API handling with micro-service back-end.</li>
                     <li className="pl-4">• Implemented production admin pages for factory floor QA survey metrics.</li>
