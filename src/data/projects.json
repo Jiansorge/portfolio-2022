@@ -1,6 +1,6 @@
 {    
     "portfolio-2022" : {
-        "name": "This website",
+        "name": "This Portfolio",
         "description": "This website was made using a Preact +  TypeScript starter template. It utilizes Tailwind CSS and Daisy UI for styled components.",
         "liveUrl": "",
         "gitUrl": "https://github.com/Jiansorge/portfolio-2022",
@@ -14,6 +14,22 @@
         "subDescription3": "All projects data is stored in a single JSON of key/values.",
         "subHeader4": "Lighthouse Scores",
         "subDescription4": "Google Lighthouse measured the following mean scores across the app:\n 80 Performance,\n 100 Accessibility,\n 100 Best Practices,\n 100 SEO"
+    },
+    "bionic-advertising-systems" : {
+        "name": "Bionic Advertising Systems",
+        "description": "Bionic is #1 rated media planning software + media buying software that delivers perfect media plans, beautiful flowcharts, online RFPs and IOs, flawless trafficking, delivery pacing, KPI performance monitoring, automated reconciliations, client dashboards, and more!",
+        "liveUrl": "https://www.bionic-ads.com/agencies/demo/",
+        "gitUrl": "",
+        "imgUrl": "../assets/project-images/bionic-advertising-systems.png",
+        "imgAlt": "screenshot of product info from Bionic Advertising Systems",
+        "subHeader1": "All-in-One",
+        "subDescription1": "Bionic is the only fully integrated media planning and media buying software for digital, TV, radio, print, OOH, and all other media channels.",
+        "subHeader2": "#1 Rated",
+        "subDescription2": "Voted “Best Agency Tool” by iMedia. Rated 4.8/5 stars by users.",
+        "subHeader3": "Easy",
+        "subDescription3": "Modern, intuitive media planning tool. If you can use Excel, you can use Bionic.",
+        "subHeader4": "Fast",
+        "subDescription4": "Hassle-free. 100% cloud-based. You’ll be up and running in minutes!"
     },
     "advertise-with-us" : {
         "name": "Advertise With Us",

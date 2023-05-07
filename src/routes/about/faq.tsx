@@ -83,16 +83,16 @@ const Item = ({ title, children }: Props) => {
                       <li className="pl-4">• Utilized Typescript and Mobx to perform CRUD API handling with micro-service back-end.</li>
                       <li className="pl-4">• Implemented production admin pages for factory floor QA survey metrics.</li>
                 </ul>
-              </Item>
-              <Item title="Do you have any coding certifications or coursework?">
-                <ul>
-                  <li>• Certificate, <a href="https://www.pce.uw.edu/certificates/full-stack-development-with-javascript" className="underline" target="_blank" rel="noopener noreferrer">Full-Stack Development with JavaScript</a>, University of Washington, 2019</li>
-                  <li>• Certificate, <a href="https://www.pce.uw.edu/certificates/front-end-development-with-html-css-and-javascript" className="underline" target="_blank" rel="noopener noreferrer">Front-End Development with HTML, CSS & JS</a>, University of Washington, 2018</li>
-                  <li>• Python – Stanford 2012</li>
-                  <li>• R for Data Science – Stanford 2012</li>
-                  <li>• C++ – UCLA 2008</li>
-                </ul>
               </>
+            </Item>
+            <Item title="Do you have any coding certifications or coursework?">
+              <ul>
+                <li>• Certificate, <a href="https://www.pce.uw.edu/certificates/full-stack-development-with-javascript" className="underline" target="_blank" rel="noopener noreferrer">Full-Stack Development with JavaScript</a>, University of Washington, 2019</li>
+                <li>• Certificate, <a href="https://www.pce.uw.edu/certificates/front-end-development-with-html-css-and-javascript" className="underline" target="_blank" rel="noopener noreferrer">Front-End Development with HTML, CSS & JS</a>, University of Washington, 2018</li>
+                <li>• Python – Stanford 2012</li>
+                <li>• R for Data Science – Stanford 2012</li>
+                <li>• C++ – UCLA 2008</li>
+              </ul>
             </Item>
             <Item title="What technologies do you prefer to work with?">
               <>
