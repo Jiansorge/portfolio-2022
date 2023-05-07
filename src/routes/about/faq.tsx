@@ -77,12 +77,12 @@ const Item = ({ title, children }: Props) => {
             </Item>
             <Item title="What else are you working on?">
               <>
-                I have more to learn with Next.js. I am slowly learning Vue and Nuxt.js. I am also interested in learning game development with <a href="https://unity.com/" target="_blank" rel="noopener noreferrer">Unity</a>.
+                I have more to learn using Next.js, Vite and Sveltekit. I am slowly learning Vue and Nuxt.js. I am also interested in learning game development with <a href="https://unity.com/" target="_blank" rel="noopener noreferrer">Unity</a>.
               </>
             </Item>
             <Item title="What else is on your programming learning list?">
               <>
-                Eventually, I'd like to learn more about cyber security, cloud networking, Linux, Solid.js and Rust. 
+                Aside from growing my React and Typescript skillsets, eventually, I'd like to learn more about cyber security, cloud networking, Linux, Solid.js and Rust. 
               </>
             </Item>
           </div>
