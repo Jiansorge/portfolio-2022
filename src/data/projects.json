@@ -33,7 +33,7 @@
     },
     "advertise-with-us" : {
         "name": "Advertise With Us",
-        "description": "A vanilla html website that provides a free service to find media vendors, programs or categories.",
+        "description": "A vanilla HTML website that provides a free service to find media vendors, programs or categories.",
         "liveUrl": "https://www.advertise-with-us.com/",
         "gitUrl": "",
         "imgUrl": "../assets/project-images/awu.png",
