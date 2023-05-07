@@ -62,7 +62,36 @@ const Item = ({ title, children }: Props) => {
                 I am inspired to design things with responsiveness
                 and accessibility in mind, to ensure all users have access.
               </>
-             </Item>
+            </Item>
+            <Item title="What is your programming work experience?">
+              <ul>
+                <li>Front-end Software Developer, Bionic Advertising Systems, Remote, 2021 – Present</li>
+                  <li className="pl-4">• Building legible, maintainable and performant code for media planning web application.</li>
+                      <li className="pl-8">◦ Created and tested numerous components using self-managed GitHub tracking.</li>
+                      <li className="pl-8">◦ Proactively filing new issues for enhancements, usability issues, and bugs.</li>
+                      <li className="pl-8">◦ Created list of 100+ product ideas and usability issues and shared with team.</li>
+                  <li className="pl-4">• Implemented front-end for advertising search engine, Advertise With Us.</li>
+                      <li className="pl-8">◦ Mobile-friendly design using responsive Tailwind methods.</li>
+                      <li className="pl-8">◦ Site performance Google Lighthouse scores >95 on average.</li>
+                      <li className="pl-8">◦ Enhanced SEO and search rankings using JSON-LD and HTML metadata.</li>
+              </ul>
+                
+              <ul className="pt-4">
+                <li>Front-end Software Developer, Collinear Group, Remote, 2020 – 2021</li>
+                    <li className="pl-4">• Developed React functional components using agile methods for Fortune 100 company.</li>
+                    <li className="pl-4">• Utilized Typescript and Mobx to perform CRUD API handling with micro-service back-end.</li>
+                    <li className="pl-4">• Implemented production admin pages for factory floor QA survey metrics.</li>
+              </ul>
+            </Item>
+            <Item title="Do you have any coding certifications or coursework?">
+              <ul>
+                <li>• Certificate, Full-Stack Development with JavaScript, University of Washington, 2019</li>
+                <li>• Certificate, Front-End Development with HTML, CSS & JS, University of Washington, 2018</li>
+                <li>• Python – Stanford 2012</li>
+                <li>• R for Data Science – Stanford 2012</li>
+                <li>• C++ – UCLA 2008</li>
+              </ul>
+            </Item>
             <Item title="What technologies do you prefer to work with?">
               <>
                 For static sites, I like to use <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer" class="">Eleventy</a> or <a href="https://github.com/preactjs-templates/typescript" target="_blank" rel="noopener noreferrer">Preact</a> deployed with <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify</a> or <a href="https://surge.sh/" target="_blank" rel="noopener noreferrer">Surge</a>.

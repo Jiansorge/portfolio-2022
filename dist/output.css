@@ -2674,6 +2674,14 @@ html {
   padding-top: 1.5rem;
 }
 
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pl-8 {
+  padding-left: 2rem;
+}
+
 .text-left {
   text-align: left;
 }
