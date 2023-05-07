@@ -64,33 +64,35 @@ const Item = ({ title, children }: Props) => {
               </>
             </Item>
             <Item title="What is your programming work experience?">
-              <ul>
-                <li className="font-bold pb-1">Front-end Software Developer, <a href="https://www.bionic-ads.com/" className="underline" target="_blank" rel="noopener noreferrer">Bionic Advertising Systems</a>, Remote, 2021 – Present</li>
-                  <li className="pl-4">• Building legible, maintainable and performant code for a <a href="http://www.bionic-ads.com/agencies/demo/" className="underline" target="_blank" rel="noopener noreferrer">media planning web application</a>.</li>
-                      <li className="pl-8">◦ Created and tested numerous components using self-managed GitHub tracking.</li>
-                      <li className="pl-8">◦ Proactively filing new issues for enhancements, usability issues, and bugs.</li>
-                      <li className="pl-8">◦ Created list of 100+ product ideas and usability issues and shared with team.</li>
-                  <li className="pl-4">• Implemented front-end for advertising search engine, <a href="https://www.advertise-with-us.com/" className="underline" target="_blank" rel="noopener noreferrer">Advertise With Us</a>.</li>
-                      <li className="pl-8">◦ Mobile-friendly design using responsive Tailwind methods.</li>
-                      <li className="pl-8">◦ Site performance Google Lighthouse scores greater than 95 on average.</li>
-                      <li className="pl-8">◦ Enhanced SEO and search rankings using JSON-LD and HTML metadata.</li>
-              </ul>
-                
-              <ul className="pt-4">
-                <li className="font-bold pb-1">Front-end Software Developer, <a href="https://www.collineargroup.com/" className="underline" target="_blank" rel="noopener noreferrer">Collinear Group</a>, Remote, 2020 – 2021</li>
-                    <li className="pl-4">• Developed React functional components using agile methods for Fortune 100 company.</li>
-                    <li className="pl-4">• Utilized Typescript and Mobx to perform CRUD API handling with micro-service back-end.</li>
-                    <li className="pl-4">• Implemented production admin pages for factory floor QA survey metrics.</li>
-              </ul>
-            </Item>
-            <Item title="Do you have any coding certifications or coursework?">
-              <ul>
-                <li>• Certificate, <a href="https://www.pce.uw.edu/certificates/full-stack-development-with-javascript" className="underline" target="_blank" rel="noopener noreferrer">Full-Stack Development with JavaScript</a>, University of Washington, 2019</li>
-                <li>• Certificate, <a href="https://www.pce.uw.edu/certificates/front-end-development-with-html-css-and-javascript" className="underline" target="_blank" rel="noopener noreferrer">Front-End Development with HTML, CSS & JS</a>, University of Washington, 2018</li>
-                <li>• Python – Stanford 2012</li>
-                <li>• R for Data Science – Stanford 2012</li>
-                <li>• C++ – UCLA 2008</li>
-              </ul>
+              <>
+                <ul>
+                  <li className="font-bold pb-1">Front-end Software Developer, <a href="https://www.bionic-ads.com/" className="underline" target="_blank" rel="noopener noreferrer">Bionic Advertising Systems</a>, Remote, 2021 – Present</li>
+                    <li className="pl-4">• Building legible, maintainable and performant code for a <a href="http://www.bionic-ads.com/agencies/demo/" className="underline" target="_blank" rel="noopener noreferrer">media planning web application</a>.</li>
+                        <li className="pl-8">◦ Created and tested numerous components using self-managed GitHub tracking.</li>
+                        <li className="pl-8">◦ Proactively filing new issues for enhancements, usability issues, and bugs.</li>
+                        <li className="pl-8">◦ Created list of 100+ product ideas and usability issues and shared with team.</li>
+                    <li className="pl-4">• Implemented front-end for advertising search engine, <a href="https://www.advertise-with-us.com/" className="underline" target="_blank" rel="noopener noreferrer">Advertise With Us</a>.</li>
+                        <li className="pl-8">◦ Mobile-friendly design using responsive Tailwind methods.</li>
+                        <li className="pl-8">◦ Site performance Google Lighthouse scores greater than 95 on average.</li>
+                        <li className="pl-8">◦ Enhanced SEO and search rankings using JSON-LD and HTML metadata.</li>
+                </ul>
+                  
+                <ul className="pt-4">
+                  <li className="font-bold pb-1">Front-end Software Developer, <a href="https://www.collineargroup.com/" className="underline" target="_blank" rel="noopener noreferrer">Collinear Group</a>, Remote, 2020 – 2021</li>
+                      <li className="pl-4">• Developed React functional components using agile methods for Fortune 100 company.</li>
+                      <li className="pl-4">• Utilized Typescript and Mobx to perform CRUD API handling with micro-service back-end.</li>
+                      <li className="pl-4">• Implemented production admin pages for factory floor QA survey metrics.</li>
+                </ul>
+              </Item>
+              <Item title="Do you have any coding certifications or coursework?">
+                <ul>
+                  <li>• Certificate, <a href="https://www.pce.uw.edu/certificates/full-stack-development-with-javascript" className="underline" target="_blank" rel="noopener noreferrer">Full-Stack Development with JavaScript</a>, University of Washington, 2019</li>
+                  <li>• Certificate, <a href="https://www.pce.uw.edu/certificates/front-end-development-with-html-css-and-javascript" className="underline" target="_blank" rel="noopener noreferrer">Front-End Development with HTML, CSS & JS</a>, University of Washington, 2018</li>
+                  <li>• Python – Stanford 2012</li>
+                  <li>• R for Data Science – Stanford 2012</li>
+                  <li>• C++ – UCLA 2008</li>
+                </ul>
+              </>
             </Item>
             <Item title="What technologies do you prefer to work with?">
               <>
