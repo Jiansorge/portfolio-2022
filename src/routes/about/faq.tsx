@@ -72,7 +72,7 @@ const Item = ({ title, children }: Props) => {
                       <li className="pl-8">◦ Created list of 100+ product ideas and usability issues and shared with team.</li>
                   <li className="pl-4">• Implemented front-end for advertising search engine, <a href="https://www.advertise-with-us.com/" className="underline" target="_blank" rel="noopener noreferrer">Advertise With Us</a>.</li>
                       <li className="pl-8">◦ Mobile-friendly design using responsive Tailwind methods.</li>
-                      <li className="pl-8">◦ Site performance Google Lighthouse scores >95 on average.</li>
+                      <li className="pl-8">◦ Site performance Google Lighthouse scores greater than 95 on average.</li>
                       <li className="pl-8">◦ Enhanced SEO and search rankings using JSON-LD and HTML metadata.</li>
               </ul>
                 
