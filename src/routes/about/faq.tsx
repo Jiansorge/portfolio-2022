@@ -68,9 +68,9 @@ const Item = ({ title, children }: Props) => {
                 <ul>
                   <li className="font-bold pb-1">Front-end Software Developer, <a href="https://www.bionic-ads.com/" className="underline" target="_blank" rel="noopener noreferrer">Bionic Advertising Systems</a>, Remote, 2021 – Present</li>
                     <li className="pl-4">• Building legible, maintainable and performant code for a <a href="http://www.bionic-ads.com/agencies/demo/" className="underline" target="_blank" rel="noopener noreferrer">media planning web application</a>.</li>
-                        <li className="pl-8">◦ Created and tested numerous components using self-managed GitHub tracking.</li>
-                        <li className="pl-8">◦ Proactively filing new issues for enhancements, usability issues, and bugs.</li>
-                        <li className="pl-8">◦ Created list of 100+ product ideas and usability issues and shared with team.</li>
+                        <li className="pl-8">◦ Created and tested numerous features using self-managed GitHub tracking.</li>
+                        <li className="pl-8">◦  Outlined and communicated clear API requirements with back-end developers.</li>
+                        <li className="pl-8">◦ Created new hire UI guide along with 100+ product ideas and usability issues.</li>
                     <li className="pl-4">• Implemented front-end for advertising search engine, <a href="https://www.advertise-with-us.com/" className="underline" target="_blank" rel="noopener noreferrer">Advertise With Us</a>.</li>
                         <li className="pl-8">◦ Mobile-friendly design using responsive Tailwind methods.</li>
                         <li className="pl-8">◦ Site performance Google Lighthouse scores greater than 95 on average.</li>
