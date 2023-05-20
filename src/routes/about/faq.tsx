@@ -113,7 +113,7 @@ const Item = ({ title, children }: Props) => {
             </Item>
             <Item title="What else is on your programming learning list?">
               <>
-                Aside from growing my React and Typescript skillsets, eventually, I'd like to learn more about cyber security, cloud networking, Linux, Solid.js and Rust. 
+                Aside from growing my React and Typescript skill-sets, eventually, I'd like to learn more about cyber security, cloud networking, Linux, and Solid.js. 
               </>
             </Item>
           </div>
