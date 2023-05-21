@@ -35,7 +35,7 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
-			<div class="p-4 flex flex-row-reverse text-pink">
+			<div class="p-4 flex justify-center text-pink">
 				<span>Animation Credit: <a class="text-yellow underline hover:text-teal transition-colors duration-200" href="https://dribbble.com/shots/3339732-Horizon" target="_blank" rel="noopener noreferrer">Horizon</a> by <a class="text-yellow underline hover:text-teal transition-colors duration-200" href="https://www.unlocklayer.com/" target="_blank" rel="noopener noreferrer">Jeremy Brown</a>
 				</span>
 			</div>

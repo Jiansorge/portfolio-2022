@@ -24,6 +24,7 @@ Icon from https://www.reshot.com/
 ## TODO
 
 - shrink images
+- opening projects at bottom of page
 - Prerendering
 - SEO
 - JSON-LD
