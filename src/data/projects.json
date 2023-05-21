@@ -62,5 +62,21 @@
         "subDescription3": "Gameplay only features one static level and type of enemy. It is not playable on certain devices.",
         "subHeader4": "What's your high score?",
         "subDescription4": "If you can keep clicking fast enough, it's pretty hard to lose!"
+    },
+    "hugos-it-consulting" : {
+        "name": "Hugo's IT Consulting",
+        "description": "Professional technology management services for server infrastructure configuration and operation, project management, Microsoft Windows Servers, AV, quarterly reporting, procurement, technical user documentation, and implementing organizational IT management processes.",
+        "liveUrl": "https://hugos-it-consulting.netlify.app/",
+        "gitUrl": "https://github.com/Jiansorge/hugos-it-consulting",
+        "imgUrl": "../assets/project-images/hugos-it-consulting.png",
+        "imgAlt": "",
+        "subHeader1": "Built using Astrowind",
+        "subDescription1": "AstroWind is a free and open-source template to make your website using Astro 2.0 + Tailwind CSS. Designed taking into account web best practices.",
+        "subHeader2": "Perfect Google Lighthouse Socres",
+        "subDescription2": "Thanks to Astrowind, this page has perfect scores of 100 for Performance, Accessibility, Best Practices, and SEO.",
+        "subHeader3": "Image Optimization",
+        "subDescription3": "Astro provides <Image /> and <Picture> components as well as a basic image transformer, with full support for static sites and server-side rendering.",
+        "subHeader4": "Deployed on Netlify",
+        "subDescription4": "Netlify's CLI makes it easy to deploy a built webapp."
     }
 }

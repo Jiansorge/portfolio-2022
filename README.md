@@ -23,6 +23,7 @@ Icon from https://www.reshot.com/
 
 ## TODO
 
+- shrink images
 - Prerendering
 - SEO
 - JSON-LD
