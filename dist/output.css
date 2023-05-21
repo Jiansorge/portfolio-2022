@@ -2404,6 +2404,10 @@ html {
   width: 10rem;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .w-12 {
   width: 3rem;
 }
@@ -2470,10 +2474,6 @@ html {
   justify-content: space-between;
 }
 
-.gap-4 {
-  gap: 1rem;
-}
-
 .gap-10 {
   gap: 2.5rem;
 }
@@ -2486,10 +2486,10 @@ html {
   gap: 1.5rem;
 }
 
-.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+.space-x-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
-  margin-right: calc(1rem * var(--tw-space-x-reverse));
-  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2502,12 +2502,6 @@ html {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-}
-
-.space-x-3 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .overflow-hidden {
@@ -2594,6 +2588,11 @@ html {
      object-fit: cover;
 }
 
+.object-top {
+  -o-object-position: top;
+     object-position: top;
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -2650,6 +2649,22 @@ html {
   padding-bottom: 4rem;
 }
 
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pl-8 {
+  padding-left: 2rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
 .pt-5 {
   padding-top: 1.25rem;
 }
@@ -2662,32 +2677,12 @@ html {
   padding-bottom: 1rem;
 }
 
-.pt-4 {
-  padding-top: 1rem;
-}
-
 .pb-6 {
   padding-bottom: 1.5rem;
 }
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pl-4 {
-  padding-left: 1rem;
-}
-
-.pl-8 {
-  padding-left: 2rem;
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem;
-}
-
-.pb-1 {
-  padding-bottom: 0.25rem;
 }
 
 .text-left {
