@@ -26,6 +26,7 @@ Icon from https://www.reshot.com/
 - shrink images
 - opening projects at bottom of page
 - Prerendering
+- swap minitile and tile components
 - font color
 - font gradients, shadowing and effects
 - SEO
