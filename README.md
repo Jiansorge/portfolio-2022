@@ -26,6 +26,8 @@ Icon from https://www.reshot.com/
 - shrink images
 - opening projects at bottom of page
 - Prerendering
+- font color
+- font gradients, shadowing and effects
 - SEO
 - JSON-LD
 - Test sitemap
