@@ -28,6 +28,10 @@ Icon from https://www.reshot.com/
 - Prerendering
 - swap minitile and tile components
 - font color
+- standardize buttons
+- hover effects
+- click effects
+- custom point and trail
 - font gradients, shadowing and effects
 - SEO
 - JSON-LD
