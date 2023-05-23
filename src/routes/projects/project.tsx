@@ -41,10 +41,10 @@ const Project = () => {
                         {
                             project.liveUrl
                             && <div class="text-center">
-                                <button class="px-6 py-2 transition-colors duration-200  shadow-md border border-teal text-pink bg-purple hover:bg-teal hover:text-purple rounded-lg">
+                                <button class="btn btn-primary px-6 py-2 transition-colors duration-200  shadow-md border  text-teal bg-purple hover:text-yellow rounded-lg">
                                 <a
                                 href={project.liveUrl}
-                                class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                                class="inline-flex w-full px-6 font-medium tracking-wide md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                                 >                        
 
 
@@ -62,12 +62,13 @@ const Project = () => {
                             </div>
                         }
                         {
+                            //ext-teal bg-purple hover:text-yellow transition-colors duration-200
                             project.gitUrl
                             && <div class="text-center">
-                                <button class="px-6 py-2 transition-colors duration-200 shadow-md border border-teal bg-purple text-yellow hover:bg-teal hover:text-purple rounded-lg">
+                                <button class="btn btn-secondary px-6 py-2 transition-colors duration-200 shadow-md border border-purple bg-purple text-teal hover:bg-purple hover:text-yellow rounded-lg">
                                     <a
                                     href={project.gitUrl}
-                                    class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded  md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                                    class="inline-flex items-center justify-center w-full px-6 font-medium tracking-wide text-white transition duration-200 rounded  md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                                     >
 
                                         Git Repo
