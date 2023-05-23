@@ -12,7 +12,7 @@ const MiniTile = ({ project, href }: Props) => {
 	return (
         <a href={href} aria-label="View Item" className="flex flex-col items-center">
             <img
-                className="object-top h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80 "
+                className="drop-shadow-2xl object-top h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80 "
                 src={thumbUrl}
                 alt={project.imgAlt}
             />

@@ -27,8 +27,8 @@ const Home = () => {
 			<div className="hero min-h-screen bg-index-hero">
 				<div className="hero-content text-center">
 					<div className="max-w-md">
-						<h1 className="text-5xl font-bold">Hello! </h1>
-						<p className="py-6 font-bold">My name is Jian.</p>
+						<h1 className="text-5xl font-bold drop-shadow-2xl">Hello! </h1>
+						<p className="py-6 font-bold drop-shadow-md">My name is Jian.</p>
 						<a href="/projects">
 							<button className="btn btn-primary text-teal bg-purple hover:text-yellow transition-colors duration-200  shadow-md mb-4">Check out my portfolio!</button>
 						</a>
