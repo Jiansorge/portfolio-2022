@@ -28,11 +28,11 @@ const Project = () => {
 	});
     useLink({rel: 'canonical', href: url});
     return (
-		<div class="text-yellow bg-gradient-to-b from-purple via-lightPurple to-purple">
+		<div class="text-pink bg-gradient-to-b from-purple via-lightPurple to-purple">
             <div class="relative flex flex-col-reverse pt-16 pb-4 lg:py-0 lg:flex-col">
                 <div class="w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:py-20 lg:max-w-screen-xl">
                     <div class="mb-0 py-6 lg:max-w-lg lg:pr-8 xl:pr-6 space-y-4">
-                        <h2 class="mb-5 font-sans text-3xl font-bold tracking-tight text-pink sm:text-4xl sm:leading-none md:text-center">
+                        <h2 class="mb-5 font-sans text-3xl font-bold tracking-tight text-indigo sm:text-4xl sm:leading-none md:text-center">
                             {project.name}
                         </h2>
                         <p class="pt-4 pb-6 text-base text-gray-700 md:text-lg md:text-center">
@@ -64,7 +64,7 @@ const Project = () => {
                         {
                             project.gitUrl
                             && <div class="text-center">
-                                <button class="px-6 py-2 transition-colors duration-200 shadow-md border border-teal bg-purple text-pink hover:bg-teal hover:text-purple rounded-lg">
+                                <button class="px-6 py-2 transition-colors duration-200 shadow-md border border-teal bg-purple text-yellow hover:bg-teal hover:text-purple rounded-lg">
                                     <a
                                     href={project.gitUrl}
                                     class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded  md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
@@ -93,12 +93,12 @@ const Project = () => {
                 </div>
             </div>
 
-            <div class="px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-teal">
+            <div class="px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-pink">
 
                 <div class="grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2">
                     <div class="duration-300 transform hover:-translate-y-2">
                         <div class="h-full p-5 border rounded-md shadow-sm border-indigo bg-purple">
-                            <h3 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader1}</h3>
+                            <h3 class="mb-2 font-semibold leading-5 text-indigo">{project.subHeader1}</h3>
                             <p class="text-sm text-gray-900">
                             {project.subDescription1}
                             </p>
@@ -106,7 +106,7 @@ const Project = () => {
                     </div>
                     <div class="duration-300 transform hover:-translate-y-2">
                         <div class="h-full p-5 border rounded-md shadow-sm border-indigo bg-purple ">
-                            <h3 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader2}</h3>
+                            <h3 class="mb-2 font-semibold leading-5 text-indigo">{project.subHeader2}</h3>
                             <p class="text-sm text-gray-900">
                                 {project.subDescription2}
                             </p>
@@ -114,7 +114,7 @@ const Project = () => {
                     </div>
                     <div class="duration-300 transform hover:-translate-y-2">
                         <div class="h-full p-5 border rounded-md shadow-sm border-indigo bg-purple">
-                            <h3 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader3}</h3>
+                            <h3 class="mb-2 font-semibold leading-5 text-indigo">{project.subHeader3}</h3>
                             <p class="text-sm text-gray-900">
                                 {project.subDescription3}
                             </p>
@@ -122,7 +122,7 @@ const Project = () => {
                     </div>
                     <div class="duration-300 transform hover:-translate-y-2">
                         <div class="h-full p-5 border rounded-md shadow-sm border-indigo bg-purple">
-                            <h3 class="mb-2 font-semibold leading-5 text-pink">{project.subHeader4}</h3>
+                            <h3 class="mb-2 font-semibold leading-5 text-indigo">{project.subHeader4}</h3>
                             <p class="text-sm text-gray-900">
                                 {project.subDescription4}
                             </p>
