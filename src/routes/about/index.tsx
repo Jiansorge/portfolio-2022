@@ -71,14 +71,14 @@ const About = () => {
 					<div class="flex items-center justify-center mx-4 lg:pl-8">
 						<div class="flex flex-col items-end px-3">
 							<img
-							class="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
+							class="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56   hover:shadow-2xl hover:animate-bounce  transition duration-200"
 							src="../../assets/about-images/trees.jpeg"
 							alt="forest picture captures in Portland, OR"
 							/>
-							<img class="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40" src="	../../assets/about-images/me-in-forest.jpg" alt="me in a forest field" />
+							<img class="object-cover w-20 h-20 rounded hover:-translate-x-4 hover:translate-y-4 shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40  hover:shadow-2xl transition duration-200  ease-in" src="	../../assets/about-images/me-in-forest.jpg" alt="me in a forest field" />
 						</div>
 						<div class="px-3">
-							<img class="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80" src="../../assets/about-images/robotics.jpg" alt="making Arduino robots at Stanford" />
+							<img class="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80 hover:shadow-2xl hover:rotate-180 ease-in-out duration-1000 transition" src="../../assets/about-images/robotics.jpg" alt="making Arduino robots at Stanford" />
 						</div>
 					</div>
 				</div>
