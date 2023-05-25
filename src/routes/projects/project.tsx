@@ -35,13 +35,13 @@ const Project = () => {
                         <h2 class="mb-5 font-sans text-3xl font-bold tracking-tight text-indigo sm:text-4xl sm:leading-none md:text-center">
                             {project.name}
                         </h2>
-                        <p class="p-4 pb-6 text-base text-gray-700 bg-purple border border-indigo rounded-md md:text-lg md:text-center">
+                        <p class="p-4 pb-6 text-base text-gray-700 bg-purple   rounded-md md:text-lg md:text-center">
                             {project.description}
                         </p>
                         {
                             project.liveUrl
                             && <div class="text-center">
-                                <button class="btn btn-primary px-6 py-2 transition-colors duration-200  shadow-md border  text-teal bg-purple hover:text-yellow rounded-lg">
+                                <button class="btn btn-primary px-6 py-2 transition-colors duration-200  shadow-md   text-teal bg-purple hover:text-yellow rounded-lg">
                                 <a
                                 href={project.liveUrl}
                                 class="inline-flex w-full px-6 font-medium tracking-wide md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
@@ -65,7 +65,7 @@ const Project = () => {
                             //ext-teal bg-purple hover:text-yellow transition-colors duration-200
                             project.gitUrl
                             && <div class="text-center">
-                                <button class="btn btn-secondary px-6 py-2 transition-colors duration-200 shadow-md border border-purple bg-purple text-teal hover:bg-purple hover:text-yellow rounded-lg">
+                                <button class="btn btn-secondary px-6 py-2 transition-colors duration-200 shadow-md  bg-purple text-teal hover:bg-purple hover:text-yellow rounded-lg">
                                     <a
                                     href={project.gitUrl}
                                     class="inline-flex items-center justify-center w-full px-6 font-medium tracking-wide text-white transition duration-200 rounded  md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
@@ -98,7 +98,7 @@ const Project = () => {
 
                 <div class="grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2">
                     <div class="duration-300 transform hover:-translate-y-2">
-                        <div class="h-full p-5 border rounded-md shadow-sm border-indigo bg-purple">
+                        <div class="h-full p-5  rounded-md shadow-sm  bg-purple">
                             <h3 class="mb-2 font-semibold leading-5 text-indigo">{project.subHeader1}</h3>
                             <p class="text-sm text-gray-900">
                             {project.subDescription1}
@@ -106,7 +106,7 @@ const Project = () => {
                         </div>
                     </div>
                     <div class="duration-300 transform hover:-translate-y-2">
-                        <div class="h-full p-5 border rounded-md shadow-sm border-indigo bg-purple ">
+                        <div class="h-full p-5  rounded-md shadow-sm  bg-purple ">
                             <h3 class="mb-2 font-semibold leading-5 text-indigo">{project.subHeader2}</h3>
                             <p class="text-sm text-gray-900">
                                 {project.subDescription2}
@@ -114,7 +114,7 @@ const Project = () => {
                         </div>
                     </div>
                     <div class="duration-300 transform hover:-translate-y-2">
-                        <div class="h-full p-5 border rounded-md shadow-sm border-indigo bg-purple">
+                        <div class="h-full p-5  rounded-md shadow-sm  bg-purple">
                             <h3 class="mb-2 font-semibold leading-5 text-indigo">{project.subHeader3}</h3>
                             <p class="text-sm text-gray-900">
                                 {project.subDescription3}
@@ -122,7 +122,7 @@ const Project = () => {
                         </div>
                     </div>
                     <div class="duration-300 transform hover:-translate-y-2">
-                        <div class="h-full p-5 border rounded-md shadow-sm border-indigo bg-purple">
+                        <div class="h-full p-5  rounded-md shadow-sm  bg-purple">
                             <h3 class="mb-2 font-semibold leading-5 text-indigo">{project.subHeader4}</h3>
                             <p class="text-sm text-gray-900">
                                 {project.subDescription4}

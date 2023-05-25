@@ -55,7 +55,7 @@ const Item = ({ title, children }: Props) => {
               
             </p> */}
           </div>
-          <div class="space-y-4 bg-purple border border-indigo rounded-md">
+          <div class="space-y-4 bg-purple rounded-md">
             <Item title="Why do you enjoy front-end web development?">
               <>
                 I have fun creating user experiences that flow and are visually captivating. 

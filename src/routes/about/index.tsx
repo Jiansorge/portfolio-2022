@@ -47,7 +47,7 @@ const About = () => {
 						<h2 class="max-w-lg mb-8 font-sans text-3xl font-bold tracking-tight text-indigo sm:text-4xl sm:leading-none drop-shadow-2xl">
 							About Jian
 						</h2>
-						<div class="bg-purple border border-indigo rounded-md p-4">
+						<div class="bg-purple rounded-md p-4">
 							<p class="text-base text-gray-700 md:text-lg">
 								I've worked as a front-end web developer 
 								for 2.5 years full-time professionally. I have been programming with JavaScript, HTML, CSS and React since 2018.
