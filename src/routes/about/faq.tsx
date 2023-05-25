@@ -9,7 +9,7 @@ interface Props {
 const Item = ({ title, children }: Props) => {
     const [isOpen, setIsOpen] = useState(false);
     return (
-      <div className="border-b border-teal text-teal">
+      <div className="border-b border-teal text-white">
         <button
           type="button"
           aria-label="Open item"
@@ -17,7 +17,7 @@ const Item = ({ title, children }: Props) => {
           className="flex items-center justify-between w-full p-4 focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
         >
-          <p className="text-left text-lg font-medium text-pink">{title}</p>
+          <p className="text-left text-lg font-medium text-indigo">{title}</p>
           <svg
             viewBox="0 0 24 24"
             className={`w-3 transform transition-transform duration-200 ${
@@ -55,7 +55,7 @@ const Item = ({ title, children }: Props) => {
               
             </p> */}
           </div>
-          <div class="space-y-4">
+          <div class="space-y-4 bg-purple border border-indigo rounded-md">
             <Item title="Why do you enjoy front-end web development?">
               <>
                 I have fun creating user experiences that flow and are visually captivating. 

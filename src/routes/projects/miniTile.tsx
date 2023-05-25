@@ -16,12 +16,14 @@ const MiniTile = ({ project, href }: Props) => {
                 src={thumbUrl}
                 alt={project.imgAlt}
             />
-            <p className="mb-2 text-xl font-bold leading-none sm:text-2xl text-indigo self-start">
-                {project.name}
-            </p>
-            <p className="text-gray-700">
-                {project.description}
-            </p>
+            <div className="bg-purple p-4 rounded-md border border-indigo">
+                <p className="mb-4 text-xl font-bold leading-none sm:text-2xl text-indigo self-start">
+                    {project.name}
+                </p>
+                <p className="text-gray-700">
+                    {project.description}
+                </p>
+            </div>
         </a>
     );
 };

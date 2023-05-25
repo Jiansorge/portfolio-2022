@@ -47,15 +47,17 @@ const About = () => {
 						<h2 class="max-w-lg mb-8 font-sans text-3xl font-bold tracking-tight text-indigo sm:text-4xl sm:leading-none drop-shadow-2xl">
 							About Jian
 						</h2>
-						<p class="text-base text-gray-700 md:text-lg">
-							I've worked as a front-end web developer 
-							for 2.5 years full-time professionally. I have been programming with JavaScript, HTML, CSS and React since 2018.
-						</p>
-						<p class="text-base text-gray-700 md:text-lg pt-5">
-							After spending 7 years in the aerospace industry as 
-							a project engineer, I decided to change careers. I took a role as a software product manager, which gave me crucial insights on working on a team with developers.
-							I received two certificates in web development and successfully made the switch into programming full-time.
-						</p>
+						<div class="bg-purple border border-indigo rounded-md p-4">
+							<p class="text-base text-gray-700 md:text-lg">
+								I've worked as a front-end web developer 
+								for 2.5 years full-time professionally. I have been programming with JavaScript, HTML, CSS and React since 2018.
+							</p>
+							<p class="text-base text-gray-700 md:text-lg pt-5">
+								After spending 7 years in the aerospace industry as 
+								a project engineer, I decided to change careers. I took a role as a software product manager, which gave me crucial insights on working on a team with developers.
+								I received two certificates in web development and successfully made the switch into programming full-time.
+							</p>
+						</div>	
 					</div>
 					{/* <div>
 						<a href="/" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">

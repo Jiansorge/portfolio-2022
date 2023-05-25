@@ -35,7 +35,7 @@ const Project = () => {
                         <h2 class="mb-5 font-sans text-3xl font-bold tracking-tight text-indigo sm:text-4xl sm:leading-none md:text-center">
                             {project.name}
                         </h2>
-                        <p class="pt-4 pb-6 text-base text-gray-700 md:text-lg md:text-center">
+                        <p class="p-4 pb-6 text-base text-gray-700 bg-purple border border-indigo rounded-md md:text-lg md:text-center">
                             {project.description}
                         </p>
                         {
