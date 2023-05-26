@@ -9,7 +9,7 @@ interface Props {
 const Item = ({ title, children }: Props) => {
     const [isOpen, setIsOpen] = useState(false);
     return (
-      <div className="border-b border-teal text-white">
+      <div className="text-white">
         <button
           type="button"
           aria-label="Open item"
@@ -55,7 +55,7 @@ const Item = ({ title, children }: Props) => {
               
             </p> */}
           </div>
-          <div class="space-y-4 bg-purple rounded-md">
+          <div class=" bg-purple rounded-md opacity-90">
             <Item title="Why do you enjoy front-end web development?">
               <>
                 I have fun creating user experiences that flow and are visually captivating. 

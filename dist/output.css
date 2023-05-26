@@ -2347,6 +2347,11 @@ html {
   margin-right: 1rem;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -2571,6 +2576,12 @@ html {
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
+.space-y-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+
 .self-start {
   align-self: flex-start;
 }
@@ -2616,6 +2627,14 @@ html {
 .bg-yellow {
   --tw-bg-opacity: 1;
   background-color: rgb(250 240 75 / var(--tw-bg-opacity));
+}
+
+.bg-purple\/50 {
+  background-color: rgb(33 32 53 / 0.5);
+}
+
+.bg-purple\/75 {
+  background-color: rgb(33 32 53 / 0.75);
 }
 
 .bg-opacity-50 {
@@ -2864,6 +2883,18 @@ html {
   opacity: 0;
 }
 
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.opacity-90 {
+  opacity: 0.9;
+}
+
+.opacity-80 {
+  opacity: 0.8;
+}
+
 .shadow-md {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
@@ -3028,6 +3059,10 @@ html {
 
 .hover\:opacity-100:hover {
   opacity: 1;
+}
+
+.hover\:opacity-90:hover {
+  opacity: 0.9;
 }
 
 .hover\:shadow-2xl:hover {

@@ -30,7 +30,7 @@ const Home = () => {
 						<h1 className="text-5xl font-bold drop-shadow-2xl">Hello! </h1>
 						<p className="rounded-lg py-6 font-bold drop-shadow-md">My name is Jian. I am a front-end web developer with over 2 years of professional experience.</p>
 						<a href="/projects">
-							<button className="btn btn-primary text-teal bg-purple hover:text-yellow transition-colors duration-200  shadow-md mb-4">Check out my portfolio!</button>
+							<button className="opacity-80 btn btn-primary text-teal bg-purple hover:text-yellow transition-colors duration-200  shadow-md mb-4">Check out my portfolio!</button>
 						</a>
 					</div>
 				</div>

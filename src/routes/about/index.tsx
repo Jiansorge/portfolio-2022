@@ -52,7 +52,7 @@ const About = () => {
 								I've worked as a front-end web developer 
 								for 2.5 years full-time professionally. I have been programming with JavaScript, HTML, CSS and React since 2018.
 							</p>
-							<p class="text-base text-gray-700 md:text-lg pt-5">
+							<p class="text-base text-gray-700 md:text-lg pt-5 opacity-90">
 								After spending 7 years in the aerospace industry as 
 								a project engineer, I decided to change careers. I took a role as a software product manager, which gave me crucial insights on working on a team with developers.
 								I received two certificates in web development and successfully made the switch into programming full-time.
