@@ -23,11 +23,14 @@ Icon from https://www.reshot.com/
 
 ## TODO
 
+- fix projects secondary description
+- add more description to home page
+- font color
 - shrink images
 - opening projects at bottom of page
 - Prerendering
 - swap minitile and tile components
-- font color
+
 - standardize buttons
 - hover effects
 - click effects
