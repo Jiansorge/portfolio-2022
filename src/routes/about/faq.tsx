@@ -9,7 +9,7 @@ interface Props {
 const Item = ({ title, children }: Props) => {
     const [isOpen, setIsOpen] = useState(false);
     return (
-      <div className="text-white">
+      <div className="">
         <button
           type="button"
           aria-label="Open item"
